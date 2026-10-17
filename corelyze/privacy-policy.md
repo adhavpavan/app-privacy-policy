@@ -19,6 +19,8 @@ and settings), which other apps cannot read.
 | List of launchable apps and their package details (versions, target SDK, install source, requested permissions, components, signing-certificate fingerprint) | Apps screens and insights | On your phone |
 | Hardware test results (pass/fail, plus measured facts such as GPS time-to-fix and satellite count — never your position), benchmark results | Reports and history | On your phone |
 | Battery history: charging sessions and battery level, current, voltage, temperature and thermal status, sampled while the app is open and about every 15 minutes in the background. You can turn it off and clear it in the app | Battery health estimate, history charts, charge alarm, overheat alert | On your phone (kept 7 days, or until you clear it with Pro) |
+| Optional Shizuku mode (only if you install the separate Shizuku app and allow Corelyze in it): CPU usage, names and CPU/memory use of running processes, hidden temperature sensors, battery service details | To show real CPU usage and values Android hides from apps. Corelyze only reads; you can revoke the access in Shizuku at any time | In memory, on screen only; never stored or sent |
+| Storage speed test file (deleted right after the test) and charger test results with the charger names you type | Storage speed and charger comparison | On your phone |
 | Notes you type into a buyer report | Printed in that PDF only | On your phone |
 | Settings (theme, units, battery calibration) and whether Pro is unlocked | To remember your choices | On your phone |
 | Crash reports and basic app events (Firebase, release builds only) | Fix crashes, understand general usage | Sent to Google Firebase (see 4) |
