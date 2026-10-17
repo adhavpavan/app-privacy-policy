@@ -16,8 +16,10 @@ and settings), which other apps cannot read.
 |---|---|---|
 | Hardware and software details from Android and the phone: model, chip (SoC), CPU, GPU, memory, storage, battery, display, cameras (specifications only), sensors, network status, Android build, security patch, codecs, DRM, system features | To show them to you, explain them and build reports | On your phone |
 | Live values: CPU clock speeds, battery current/voltage/temperature, thermal status, memory use, network speed | Live screens and widgets | In memory; on your phone |
-| List of launchable apps and their package details (versions, target SDK, install source) | Apps screen | On your phone |
-| Hardware test results (pass/fail) and, in later versions, battery/temperature history and benchmark results | Reports and history | On your phone |
+| List of launchable apps and their package details (versions, target SDK, install source, requested permissions, components, signing-certificate fingerprint) | Apps screens and insights | On your phone |
+| Hardware test results (pass/fail, plus measured facts such as GPS time-to-fix and satellite count — never your position), benchmark results | Reports and history | On your phone |
+| Battery history: charging sessions and battery level, current, voltage, temperature and thermal status, sampled while the app is open and about every 15 minutes in the background. You can turn it off and clear it in the app | Battery health estimate, history charts, charge alarm, overheat alert | On your phone (kept 7 days, or until you clear it with Pro) |
+| Notes you type into a buyer report | Printed in that PDF only | On your phone |
 | Settings (theme, units, battery calibration) and whether Pro is unlocked | To remember your choices | On your phone |
 | Crash reports and basic app events (Firebase, release builds only) | Fix crashes, understand general usage | Sent to Google Firebase (see 4) |
 
