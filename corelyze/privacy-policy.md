@@ -39,7 +39,6 @@ tap the feature that needs them; you can refuse or revoke them at any time.
   other identifiers.
 - **Camera** — camera test preview, colour picker and magnifier: live preview only. Nothing is recorded or saved. (Camera specifications need no permission.)
 - **Microphone** — microphone test (records 3 seconds, plays it back and deletes it) and sound meter (live level only, nothing recorded).
-- **Physical activity** — step counter sensor test only.
 - Normal permissions declared without prompts: internet and network state (Firebase, Google Play), Wi-Fi state
   (Wi-Fi details), vibration and biometrics (hardware tests), run at startup (re-schedule widget refresh), advertising
   ID (Firebase Analytics).
