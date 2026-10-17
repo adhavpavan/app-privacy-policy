@@ -4,7 +4,7 @@ Public privacy policies for TechDev Android apps, served with GitHub Pages.
 
 | App | Package | Policy URL |
 |---|---|---|
-| Focused: Screen Time Control | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused/ |
+| Focused: Screen Time Control | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/focused/delete-data/ |
 
 ## Hosting
 
