@@ -6,9 +6,11 @@
 
 This policy explains how Focused: Screen Time Control ("Focused", "the app", "we") handles information.
 
-**In short:** everything the app measures stays on your phone. There are no accounts and no servers of ours. The
-only thing that leaves your phone is an anonymous crash report if the app crashes, so we can fix bugs. We never sell
-or share your data, and we never receive your usage data.
+**In short:** your usage data stays on your phone. Your usage statistics, the names of the apps you use, the
+websites you visit, your rules and anything the accessibility service sees are never sent anywhere. There are no
+accounts and no servers of ours. To fix crashes and understand how the app is used in general, the app uses Google
+Firebase Crashlytics (crash reports) and Firebase Analytics (basic app events such as app opens and screens viewed,
+with device identifiers including the advertising ID). We never sell your data, and we never receive your usage data.
 
 ---
 
@@ -25,6 +27,7 @@ database and settings), which other apps cannot read.
 | Optional display name on the Me tab | Personalisation | On your phone |
 
 We do **not** collect your name, e-mail address, phone number, contacts, messages, photos, files or browsing history.
+The only information sent off your phone is the crash and analytics data described in section 4.
 
 ## 2. Permissions and how they are used
 
@@ -59,7 +62,15 @@ Used to show reminders, limit warnings, the focus timer, daily and weekly summar
 
 ### Internet and network state
 The app has no server of its own. Network access exists only for the Google components listed in section 4,
-including sending anonymous crash reports through Firebase Crashlytics if the app crashes.
+including sending crash reports through Firebase Crashlytics and basic app events through Firebase Analytics.
+
+### Advertising ID (`AD_ID`)
+The advertising ID is a resettable identifier that Google Play services provides on Android. Focused declares the
+advertising ID permission because Firebase Analytics collects it, together with the app instance ID, to measure how
+the app is used. Ads are currently turned off, so it is not used to show ads; if a future version shows ads, Google
+AdMob will also use it (see section 4). You can reset or delete your advertising ID, or opt out of ads
+personalisation, at any time in your phone's settings (for example Settings → Google → Ads, or Settings → Privacy →
+Ads, depending on your phone). After you delete it, apps no longer receive an advertising ID.
 
 ## 3. Backups, exports and feedback
 
@@ -85,6 +96,16 @@ The app includes these Google components, which are governed by
   a random Crashlytics installation ID (not the advertising ID). It contains no usage data, rules or personal content.
   It is sent encrypted, used only to find and fix crashes, never used for ads and never sold. Firebase keeps crash
   data for about 90 days. See [Firebase privacy and security](https://firebase.google.com/support/privacy).
+- **Firebase Analytics (Google Analytics for Firebase)** — to understand how the app is used in general (for example
+  how many people open it, which screens are viewed and which app versions are in use), so we can improve it. The app
+  logs no events of its own; Firebase Analytics records only its
+  [automatically collected events](https://support.google.com/firebase/answer/9234069), such as first open, session
+  start, screen views, app updates, Android updates and in-app purchases. With them it collects the app instance ID,
+  the advertising ID, device model, Android version, language, app version, approximate country or region (derived
+  from your IP address) and engagement time. It never receives your usage statistics, the names of the apps you use,
+  websites, rules or anything the accessibility service sees. Data is sent encrypted to Google (Firebase), acting as
+  our service provider, is not sold, and is kept by Google for a limited time, as configured in Firebase (by default
+  2 months for user-level data). See [Firebase privacy and security](https://firebase.google.com/support/privacy).
 - **Google Play Billing** — for the optional "Remove ads" purchase when it is offered. We never see your payment
   details; Google Play only tells the app whether the purchase is owned.
 - **Google AdMob and the User Messaging Platform (UMP)** — **ads are currently turned off** and no ads are requested.
@@ -95,12 +116,14 @@ The app includes these Google components, which are governed by
   and [Google's advertising policy](https://policies.google.com/technologies/ads). You can reset or delete your
   advertising ID in your phone's settings.
 
-We do not use any analytics, advertising or tracking SDKs.
+Firebase Analytics is the only analytics SDK in the app. The AdMob SDK is included but stays inactive while ads are
+turned off. None of these services receive your usage data.
 
 ## 5. Sharing and selling
 
-We do not sell, rent or share your information. Because the app does not send your data to us, we have nothing to share.
-Crash reports are processed by Google (Firebase) only as our service provider, to help us fix crashes.
+We do not sell or rent your information, and we do not share it with third parties for their own purposes. Your usage
+data is never sent to us or to anyone else. Crash reports and analytics data are processed by Google (Firebase) as our
+service provider, only to help us fix crashes and understand how the app is used.
 
 ## 6. Children
 
@@ -118,13 +141,15 @@ Your data stays on your phone until you delete it. You can:
 
 The usage statistics themselves are kept by Android (not by Focused) according to Android's own rules. Backup files
 you saved elsewhere are yours to delete. We store none of your usage data, so there is nothing for us to delete
-on a server. Crash reports are deleted automatically by Firebase after about 90 days; to ask for earlier deletion,
-write to [tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com).
+on a server. Crash reports are deleted automatically by Firebase after about 90 days. Analytics data is kept by Google
+for a limited time, as configured in Firebase (by default 2 months for user-level data). You can also reset or delete
+your advertising ID in your phone's settings. To ask for earlier deletion, write to
+[tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com).
 
 ## 8. Security
 
-Your data is kept in the app's private storage, which other apps cannot read, and the app does not send it over the
-internet. Crash reports are sent to Firebase over an encrypted (HTTPS) connection. Protect your phone with a screen
+Your usage data is kept in the app's private storage, which other apps cannot read, and the app does not send it over
+the internet. Crash reports and analytics data are sent to Firebase over an encrypted (HTTPS) connection. Protect your phone with a screen
 lock and keep backup files somewhere safe.
 
 ## 9. Changes to this policy
