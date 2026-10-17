@@ -89,12 +89,13 @@
     </div>
     <div>
       <h1>Privacy Policy</h1>
-      <div class="meta">Focused: Screen Time Control for Android · Effective date: 16 October 2026</div>
+      <div class="meta">Focused: Screen Time Control for Android · Effective date: 17 October 2026</div>
     </div>
   </header>
 
-  <p class="summary"><strong>In short:</strong> everything the app measures stays on your phone. There are no accounts,
-    no servers of ours and no analytics. We never sell or share your data, and we never receive it.</p>
+  <p class="summary"><strong>In short:</strong> everything the app measures stays on your phone. There are no accounts
+    and no servers of ours. The only thing that leaves your phone is an anonymous crash report if the app crashes, so we
+    can fix bugs. We never sell or share your data, and we never receive your usage data.</p>
 
   <nav class="toc" aria-label="Contents">
     <strong>Contents</strong>
@@ -173,7 +174,8 @@
 
     <h3>Internet and network state</h3>
     <p>The app has no server of its own. Network access exists only for the Google components listed in
-      <a href="#third-party">section 4</a>.</p>
+      <a href="#third-party">section 4</a>, including sending anonymous crash reports through Firebase Crashlytics if
+      the app crashes.</p>
   </section>
 
   <section id="backups">
@@ -197,6 +199,13 @@
       <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>:</p>
     <ul>
       <li><strong>Google Play In-App Review and In-App Updates</strong> — to rate the app and install updates.</li>
+      <li><strong>Firebase Crashlytics</strong> — if the app crashes or hits a serious error, a crash report is sent to
+        Google (Firebase), acting as our service provider. It contains the error and stack trace, the device model,
+        Android version, app version, the device state at the time of the crash (such as free memory and disk space, and
+        screen orientation) and a random Crashlytics installation ID (not the advertising ID). It contains no usage data,
+        rules or personal content. It is sent encrypted, used only to find and fix crashes, never used for ads and never
+        sold. Firebase keeps crash data for about 90 days. See
+        <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</li>
       <li><strong>Google Play Billing</strong> — for the optional “Remove ads” purchase when it is offered. We never
         see your payment details; Google Play only tells the app whether the purchase is owned.</li>
       <li><strong>Google AdMob and the User Messaging Platform (UMP)</strong> — <strong>ads are currently turned
@@ -207,13 +216,14 @@
         that use its services</a> and <a href="https://policies.google.com/technologies/ads">Google’s advertising
         policy</a>. You can reset or delete your advertising ID in your phone’s settings.</li>
     </ul>
-    <p>We do not use any analytics, crash-reporting or tracking SDKs.</p>
+    <p>We do not use any analytics, advertising or tracking SDKs.</p>
   </section>
 
   <section id="sharing">
     <h2><span class="n">5.</span>Sharing and selling</h2>
     <p>We do not sell, rent or share your information. Because the app does not send your data to us, we have nothing
-      to share.</p>
+      to share. Crash reports are processed by Google (Firebase) only as our service provider, to help us fix
+      crashes.</p>
   </section>
 
   <section id="children">
@@ -232,14 +242,16 @@
         or by uninstalling the app.</li>
     </ul>
     <p>The usage statistics themselves are kept by Android (not by Focused) according to Android’s own rules. Backup
-      files you saved elsewhere are yours to delete. We store none of your data, so there is nothing for us to delete on
-      a server.</p>
+      files you saved elsewhere are yours to delete. We store none of your usage data, so there is nothing for us to
+      delete on a server. Crash reports are deleted automatically by Firebase after about 90 days; to ask for earlier
+      deletion, write to <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a>.</p>
   </section>
 
   <section id="security">
     <h2><span class="n">8.</span>Security</h2>
     <p>Your data is kept in the app’s private storage, which other apps cannot read, and the app does not send it over
-      the internet. Protect your phone with a screen lock and keep backup files somewhere safe.</p>
+      the internet. Crash reports are sent to Firebase over an encrypted (HTTPS) connection. Protect your phone with a
+      screen lock and keep backup files somewhere safe.</p>
   </section>
 
   <section id="changes">
@@ -254,7 +266,7 @@
       <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a>.</p>
   </section>
 
-  <footer>© 2026 Focused: Screen Time Control · Nothing leaves your phone.</footer>
+  <footer>© 2026 Focused: Screen Time Control · Your usage data stays on your phone.</footer>
 </main>
 </body>
 </html>

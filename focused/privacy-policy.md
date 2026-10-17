@@ -1,13 +1,14 @@
 # Privacy Policy — Focused: Screen Time Control
 
-**Effective date:** 16 October 2026
+**Effective date:** 17 October 2026
 **App:** Focused: Screen Time Control (`com.techdev.focused`) for Android
 **Contact:** [tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com)
 
 This policy explains how Focused: Screen Time Control ("Focused", "the app", "we") handles information.
 
-**In short:** everything the app measures stays on your phone. There are no accounts, no servers of ours and no
-analytics. We never sell or share your data, and we never receive it.
+**In short:** everything the app measures stays on your phone. There are no accounts and no servers of ours. The
+only thing that leaves your phone is an anonymous crash report if the app crashes, so we can fix bugs. We never sell
+or share your data, and we never receive your usage data.
 
 ---
 
@@ -57,7 +58,8 @@ when the session ends.
 Used to show reminders, limit warnings, the focus timer, daily and weekly summaries, and other alerts you turn on.
 
 ### Internet and network state
-The app has no server of its own. Network access exists only for the Google components listed in section 4.
+The app has no server of its own. Network access exists only for the Google components listed in section 4,
+including sending anonymous crash reports through Firebase Crashlytics if the app crashes.
 
 ## 3. Backups, exports and feedback
 
@@ -77,6 +79,12 @@ The app includes these Google components, which are governed by
 [Google's Privacy Policy](https://policies.google.com/privacy):
 
 - **Google Play In-App Review and In-App Updates** — to rate the app and install updates.
+- **Firebase Crashlytics** — if the app crashes or hits a serious error, a crash report is sent to Google (Firebase),
+  acting as our service provider. It contains the error and stack trace, the device model, Android version, app
+  version, the device state at the time of the crash (such as free memory and disk space, and screen orientation) and
+  a random Crashlytics installation ID (not the advertising ID). It contains no usage data, rules or personal content.
+  It is sent encrypted, used only to find and fix crashes, never used for ads and never sold. Firebase keeps crash
+  data for about 90 days. See [Firebase privacy and security](https://firebase.google.com/support/privacy).
 - **Google Play Billing** — for the optional "Remove ads" purchase when it is offered. We never see your payment
   details; Google Play only tells the app whether the purchase is owned.
 - **Google AdMob and the User Messaging Platform (UMP)** — **ads are currently turned off** and no ads are requested.
@@ -87,11 +95,12 @@ The app includes these Google components, which are governed by
   and [Google's advertising policy](https://policies.google.com/technologies/ads). You can reset or delete your
   advertising ID in your phone's settings.
 
-We do not use any analytics, crash-reporting or tracking SDKs.
+We do not use any analytics, advertising or tracking SDKs.
 
 ## 5. Sharing and selling
 
 We do not sell, rent or share your information. Because the app does not send your data to us, we have nothing to share.
+Crash reports are processed by Google (Firebase) only as our service provider, to help us fix crashes.
 
 ## 6. Children
 
@@ -108,13 +117,15 @@ Your data stays on your phone until you delete it. You can:
   uninstalling the app.
 
 The usage statistics themselves are kept by Android (not by Focused) according to Android's own rules. Backup files
-you saved elsewhere are yours to delete. We store none of your data, so there is nothing for us to delete
-on a server.
+you saved elsewhere are yours to delete. We store none of your usage data, so there is nothing for us to delete
+on a server. Crash reports are deleted automatically by Firebase after about 90 days; to ask for earlier deletion,
+write to [tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com).
 
 ## 8. Security
 
 Your data is kept in the app's private storage, which other apps cannot read, and the app does not send it over the
-internet. Protect your phone with a screen lock and keep backup files somewhere safe.
+internet. Crash reports are sent to Firebase over an encrypted (HTTPS) connection. Protect your phone with a screen
+lock and keep backup files somewhere safe.
 
 ## 9. Changes to this policy
 
