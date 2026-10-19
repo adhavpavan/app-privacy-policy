@@ -6,6 +6,7 @@ Public privacy policies for TechDev Android apps, served with GitHub Pages.
 |---|---|---|
 | Focused: Screen Time Control | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/focused/delete-data/ |
 | Corelyze: CPU & Device Info | `com.techdev.corelyze` | https://adhavpavan.github.io/app-privacy-policy/corelyze/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/corelyze/delete-data/ |
+| Chargewise: Battery Health | `com.techdev.chargewise` | https://adhavpavan.github.io/app-privacy-policy/chargewise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/chargewise/delete-data/ |
 
 ## Hosting
 
@@ -25,6 +26,7 @@ the source of truth is the app repo.
 |---|---|---|
 | Focused | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `focused/privacy-policy.md`, `focused/index.html` |
 | Corelyze | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `corelyze/privacy-policy.md`, `corelyze/index.html` |
+| Chargewise | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `chargewise/privacy-policy.md`, `chargewise/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy
@@ -33,6 +35,8 @@ Focused (`focused-screentime-control` repo):
 3. Here: `git add -A && git commit -m "Update Focused policy: <what changed>" && git push origin main`.
 4. Open the URL to check, then update Play Console (Data safety, declarations) to match.
 
-`focused/delete-data/` and `corelyze/delete-data/` (data deletion pages for Play) exist only in this repo.
+`focused/delete-data/`, `corelyze/delete-data/` and `chargewise/delete-data/` (data deletion pages for Play) exist only in this repo.
 
 Corelyze (`DeviceInfo/android-device-info` repo): same steps; `scripts/sync_policy.sh` re-renders the HTML from the Markdown and copies both here.
+
+Chargewise (`android-battery-health` repo): same steps; `scripts/sync_policy.sh` copies both files here.
