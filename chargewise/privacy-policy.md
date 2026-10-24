@@ -1,6 +1,6 @@
 # Privacy Policy — Chargewise: Battery Health
 
-Effective date: 19 October 2026 · Package `com.techdev.chargewise` · Contact: tecdroiddeveloper@gmail.com
+Effective date: 24 October 2026 · Package `com.techdev.chargewise` · Contact: tecdroiddeveloper@gmail.com
 
 **In short:** Chargewise reads your phone's battery information on the phone itself and keeps your battery history
 there. There is no account and no server of ours, and your battery data is never uploaded. To fix crashes and
@@ -19,22 +19,25 @@ settings), which other apps cannot read.
 | Health estimate, learned battery capacity, cycle estimate and current-calibration result | To show your battery's health and correct readings on your phone | On your phone |
 | Your phone model, used to look up the battery's design capacity in a database built into the app; or the capacity you type | Health % | On your phone (the lookup happens inside the app; nothing is sent) |
 | Alarm and alert settings, theme, units and language | To remember your choices | On your phone |
+| Live monitor start and stop times, and your choices for the unplug summary, unusual-drain alert and live monitor | The reliability timeline and to remember your choices | On your phone |
+| Which apps were on screen and when (app names and times), **only if you allow usage access** for the App drain screen | To estimate each app's share of the battery drain (time on screen × your measured drain) and Chargewise's own footprint | Read on your phone only while a screen that shows it is open; not stored, not sent |
 | Crash reports and basic app events (Firebase, release builds only) | Fix crashes, understand general usage | Sent to Google Firebase (see 4) |
 
-Chargewise does not read your location, contacts, files, photos, messages, accounts or the list of your apps.
+Chargewise does not read your location, contacts, files, photos, messages or accounts. It reads which apps were on screen only if you allow usage access (see 2), and never what you did in them.
 
 ## 2. Permissions
 Chargewise needs no permission to show battery information.
 
-- **Notifications** (Android 13 and newer) — only to ring the charge alarms and show the alerts you turn on. Asked the
-  first time you turn one on. You can refuse or turn it off in Android settings; the rest of the app keeps working.
+- **Notifications** (Android 13 and newer) — only for what you turn on: charge alarms and alerts, the unplug summary, the unusual-drain alert and the live monitor. Asked the first time you turn one on. You can refuse or turn it off in Android settings; the rest of the app keeps working.
+- **Usage access** (optional, special access you grant yourself in Android settings) — for the App drain screen. Before Android's screen opens, the app explains what it reads and asks you to agree. It reads which apps were on screen and when, on your phone, only while a screen that shows it is open (App drain, Insights or Background), to estimate each app's share of the battery drain. It is not stored, uploaded, shared or used for ads. Without it, everything else works; you can turn it off at any time.
+- **Foreground service** (optional live monitor) — when you turn on the live monitor, the app keeps an ongoing notification with the battery level, charging power, temperature and time left, and Android shows that it runs in the background. It runs only after you turn it on (and again after a reboot if you left it on), and stops when you turn it off or tap Stop.
 - Normal permissions granted at install without a prompt: internet and network state (Firebase and Google Play),
-  run at startup (to restart background battery checks after a reboot), vibration (alarm vibration), keep the
+  run at startup (to restart background battery checks, and the live monitor if you left it on, after a reboot), run a foreground service (the optional live monitor), vibration (alarm vibration), keep the
   processor awake briefly and background work (used by Android's WorkManager to run the background battery checks),
   and advertising ID (Firebase Analytics).
 
 ## 3. Exports, backups and feedback
-When you export your history as a CSV file, the file is created on your phone and saved only where you choose with
+Charger test results stay on your phone. When you tap Share on the weekly report or a reading card, the app creates an image on your phone and hands it only to the app you pick; it is not sent anywhere else. When you export your history as a CSV file, the file is created on your phone and saved only where you choose with
 Android's file picker; it goes only where you send it. Android may include the app's settings and history in your
 own Google account backup if you turned device backup on; that is handled by Android and Google, not by us. When you use
 "Contact us", your e-mail app opens with the app version, Android version and phone model added so we can help; you
