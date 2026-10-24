@@ -43,9 +43,10 @@ never uses your location in the background.
 
 ## 3. Sharing, backups and feedback
 When you share a bearing as an image card, the image is created on your phone and sent only with the app you pick in
-the share sheet; it shows the bearing's name, bearing, back-bearing and north reference, not your position. Android
-may include the app's settings, saved position, bearings and places in your own Google account backup if you turned
-device backup on; that is handled by Android and Google, not by us. When you use "Contact us", your e-mail app opens
+the share sheet; it shows the bearing's name, bearing, back-bearing and north reference, not your position. Your saved
+position, places, bearings and settings are **not included in cloud backups** (Google account backup). When you move
+to a new phone with Android's device-to-device transfer (cable or direct transfer), they can be copied straight from
+your old phone to the new one; that copy never goes through us. When you use "Contact us", your e-mail app opens
 with the app version, Android version and phone model added so we can help; you decide whether to send it.
 
 ## 4. Third-party services
