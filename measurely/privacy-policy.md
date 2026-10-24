@@ -1,6 +1,6 @@
 # Privacy Policy — Measurely: Sound, Level, Lux
 
-Effective date: 19 October 2026 · Package `com.techdev.measurely` · Contact: tecdroiddeveloper@gmail.com
+Effective date: 24 October 2026 · Package `com.techdev.measurely` · Contact: tecdroiddeveloper@gmail.com
 
 **In short:** Measurely measures sound, angle, light, motion and air pressure on your phone, and keeps what you record
 there. There is no account and no server of ours. Microphone sound is analysed in memory to compute the level and
@@ -15,7 +15,7 @@ settings), which other apps cannot read.
 
 | Information | Why | Where it stays |
 |---|---|---|
-| Microphone sound (only after you allow the microphone) | To compute the sound level and the spectrum while a sound tool is open | Processed in memory and discarded within a fraction of a second. **Never recorded, saved or sent** |
+| Microphone sound (only after you allow the microphone) | To compute the sound level and the spectrum while a sound tool is open, and during a sound recording you chose to keep running with the screen off (shown by an ongoing notification with a Stop button) | Processed in memory and discarded within a fraction of a second. **Never recorded, saved or sent** as audio; only the numeric levels of a recording are saved |
 | Camera preview (only if you turn on the inclinometer's camera sight and allow the camera) | To show what you aim at | Shown on screen only. **Never captured, saved or sent** |
 | Sensor readings: accelerometer, gyroscope, magnetic field, light, air pressure, and humidity or temperature where your phone has those sensors | Live tools, sensor check | Processed on your phone |
 | Recorded sessions: the numbers you choose to record (for example "52 dB at 21:40"), events above your threshold, and the title, place and notes you type | History, charts, noise reports | On your phone until you delete them or uninstall |
@@ -37,11 +37,17 @@ Measurely does not read your location, contacts, files, photos, messages, accoun
   permissions (for example Android's ad-services permissions from the Google Mobile Ads SDK, or background-work
   permissions used by Android's WorkManager for widgets); they are not used to collect anything beyond what this
   policy describes.
-- Measurely has **no location permission**, no notifications in this version, and no access to your storage: exports
-  use Android's file picker.
+- **Background sound recording** (`FOREGROUND_SERVICE`, `FOREGROUND_SERVICE_MICROPHONE`) — optional. Only when you
+  turn on "Keep recording with the screen off" during a sound recording, Measurely keeps measuring the sound level
+  while the app is in the background or the screen is off. An ongoing notification shows the elapsed time and the
+  level so far, with a Stop button; it ends when the recording stops. The microphone is used exactly as in the app:
+  in memory, no audio stored or sent.
+- **Notifications** (`POST_NOTIFICATIONS`, Android 13 and later) — asked only when you turn background recording on,
+  to show that ongoing notification. If you refuse, the recording still works and you stop it in the app.
+- Measurely has **no location permission** and no access to your storage: exports use Android's file picker.
 
 ## 3. Exports, backups and feedback
-When you export a session (CSV, JSON or a PDF noise report), the file is created on your phone and saved only where
+When you export a session (CSV, JSON or a PDF noise report) or share a reading as an image card, the file is created on your phone and saved only where
 you choose with Android's file picker, or sent with the app you pick in the share sheet. A noise report contains the
 readings, the place and notes you typed, your phone model, Android version and the calibration used; it goes only where
 you send it. Android may include the app's settings and history in your own Google account backup if you turned device
@@ -82,8 +88,8 @@ App data is kept in Android's private app storage. Connections to Google service
 camera image, reading or recording is sent anywhere by the app.
 
 ## 9. Changes
-We may update this policy when the app changes, for example if a later version adds background noise logging with a
-notification. The current version, with its effective date, is always in the app (menu › Privacy policy) and at
+We may update this policy when the app changes (24 October 2026: optional background sound recording with a
+notification, and share cards of a reading made on the phone). The current version, with its effective date, is always in the app (menu › Privacy policy) and at
 https://adhavpavan.github.io/app-privacy-policy/measurely/.
 
 ## 10. Contact
