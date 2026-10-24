@@ -9,6 +9,7 @@ Public privacy policies for TechDev Android apps, served with GitHub Pages.
 | Chargewise: Battery Health | `com.techdev.chargewise` | https://adhavpavan.github.io/app-privacy-policy/chargewise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/chargewise/delete-data/ |
 | Measurely: Sound, Level, Lux | `com.techdev.measurely` | https://adhavpavan.github.io/app-privacy-policy/measurely/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/measurely/delete-data/ |
 | Northwise: Digital Compass | `com.techdev.northwise` | https://adhavpavan.github.io/app-privacy-policy/northwise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/northwise/delete-data/ |
+| Decibly: Sound Meter & dB | `com.techdev.decibly` | https://adhavpavan.github.io/app-privacy-policy/decibly/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/decibly/delete-data/ |
 
 ## Hosting
 
@@ -31,6 +32,7 @@ the source of truth is the app repo.
 | Chargewise | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `chargewise/privacy-policy.md`, `chargewise/index.html` |
 | Measurely | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `measurely/privacy-policy.md`, `measurely/index.html` |
 | Northwise | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `northwise/privacy-policy.md`, `northwise/index.html` |
+| Decibly | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `decibly/privacy-policy.md`, `decibly/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy
@@ -39,7 +41,7 @@ Focused (`focused-screentime-control` repo):
 3. Here: `git add -A && git commit -m "Update Focused policy: <what changed>" && git push origin main`.
 4. Open the URL to check, then update Play Console (Data safety, declarations) to match.
 
-`focused/delete-data/`, `corelyze/delete-data/`, `chargewise/delete-data/`, `measurely/delete-data/` and `northwise/delete-data/` (data deletion pages for Play) exist only in this repo.
+`focused/delete-data/`, `corelyze/delete-data/`, `chargewise/delete-data/`, `measurely/delete-data/`, `northwise/delete-data/` and `decibly/delete-data/` (data deletion pages for Play) exist only in this repo.
 
 Corelyze (`DeviceInfo/android-device-info` repo): same steps; `scripts/sync_policy.sh` re-renders the HTML from the Markdown and copies both here.
 
@@ -49,5 +51,9 @@ Measurely (`sensor-toolbox` repo): same steps; render the HTML with `scripts/pol
 `scripts/sync_policy.sh` copies both files here.
 
 Northwise (`new-apps/digital-compass` repo): same steps; render the HTML with
+`python3 -I scripts/policy_md2html.py docs/playstore/policy/privacy-policy.md docs/playstore/policy/privacy-policy.html docs/playstore/policy/privacy-policy.html`
+first, then `scripts/sync_policy.sh` copies both files here.
+
+Decibly (`new-apps/sound-meter` repo): same steps; render the HTML with
 `python3 -I scripts/policy_md2html.py docs/playstore/policy/privacy-policy.md docs/playstore/policy/privacy-policy.html docs/playstore/policy/privacy-policy.html`
 first, then `scripts/sync_policy.sh` copies both files here.
