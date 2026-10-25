@@ -89,7 +89,7 @@
     </div>
     <div>
       <h1>Privacy Policy</h1>
-      <div class="meta">Focused: Screen Time Control for Android · Effective date: 17 October 2026</div>
+      <div class="meta">Focused: Screen Time Control for Android · Effective date: 25 October 2026</div>
     </div>
   </header>
 
@@ -130,7 +130,8 @@
         <thead><tr><th>Information</th><th>Why</th><th>Where it stays</th></tr></thead>
         <tbody>
           <tr><td>App usage statistics from Android (apps used and for how long, app opens, phone unlocks, number of notifications per app)</td><td>Screen time, sessions, pickups, focus score, goals, history, limits</td><td>On your phone</td></tr>
-          <tr><td>Your rules: app limits, schedules, focus sessions and presets, strict mode, website rules, goals</td><td>To enforce what you set</td><td>On your phone</td></tr>
+          <tr><td>Your rules: app limits, schedules, focus sessions and presets (including Whole-phone focus, which blocks every app except the ones you keep), strict mode, website rules, programs, goals</td><td>To enforce what you set</td><td>On your phone</td></tr>
+          <tr><td>Content filter settings, if you use it: whether the adult filter is on and your list of blocked words</td><td>To block matching pages</td><td>On your phone</td></tr>
           <tr><td>Domains of your own website rules and the time spent on them</td><td>Website limits and blocking</td><td>On your phone</td></tr>
           <tr><td>Optional display name on the Me tab</td><td>Personalisation</td><td>On your phone</td></tr>
         </tbody>
@@ -160,9 +161,16 @@
       <li>in supported <strong>browsers</strong>, <strong>only the address bar</strong>, to match the websites you chose
         to block or limit. It is not read while you are typing in it. Only the domains of your own rules and the time
         spent are stored.</li>
+      <li>if you turn on the optional <strong>content filter</strong>, the same address-bar text (including search
+        words a browser shows there) is also checked, on your phone, against the list of adult sites built into the app
+        and your own blocked words. When a page matches, only the fact that it was blocked is stored (as for websites);
+        the address and the matching word are never stored or sent.</li>
+      <li>the <strong>list of open windows</strong>, only to find a <strong>picture-in-picture</strong> window and its
+        app's package name, so a blocked app can't keep playing in a floating window.</li>
     </ul>
     <p>The service does <strong>not</strong> read any other text on your screen, never records what you type,
-      passwords or messages, and its only actions are going <em>Back</em> or <em>Home</em> to leave a blocked app.
+      passwords or messages, and its only actions are going <em>Back</em> or <em>Home</em> to leave a blocked app and
+      closing a blocked app's picture-in-picture window.
       Nothing it sees leaves your phone. You can turn it off at any time in Android Settings → Accessibility.</p>
 
     <h3>Location</h3>
@@ -200,6 +208,9 @@
       <li><strong>Android device backup:</strong> if Android’s own backup is turned on, Android may include the app’s
         database and settings in your encrypted Google account backup so they can be restored on a new phone. This is
         managed by Android and Google, not by us, and can be turned off in your phone’s settings.</li>
+      <li><strong>Share cards:</strong> if you share an achievement from the Achievements screen, the app draws an image
+        on your phone (the achievement, your streak, average focus score and badge count, no other usage details) and
+        hands it to the app you pick in Android’s share sheet. We never receive it.</li>
       <li><strong>Feedback:</strong> if you use <em>Contact us</em>, your e-mail app opens with our address, a subject
         with the app version and, in the message, the app version, Android version and phone model to help us answer.
         You can remove them before sending. We use your e-mail only to reply to you.</li>
@@ -230,8 +241,11 @@
         Google (Firebase), acting as our service provider, is not sold, and is kept by Google for a limited time, as
         configured in Firebase (by default 2 months for user-level data). See
         <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</li>
-      <li><strong>Google Play Billing</strong> — for the optional “Remove ads” purchase when it is offered. We never
-        see your payment details; Google Play only tells the app whether the purchase is owned.</li>
+      <li><strong>Google Play Billing</strong> — for the optional “Remove ads” purchase when it is offered, and the
+        optional paid early exit (a one-time purchase that ends a strict or Deep focus session, or lifts a strict limit
+        until midnight). The purchase carries only an internal number of that session or limit (never its name or
+        apps), so the app can end the right one. We never see your payment details; Google Play only tells the app
+        whether a purchase was made.</li>
       <li><strong>Google AdMob and the User Messaging Platform (UMP)</strong> — <strong>ads are currently turned
         off</strong> and no ads are requested. If a future version shows ads, you will be asked for consent where the
         law requires it (for example in the EEA, the UK and some US states) and can change your choice in the app.

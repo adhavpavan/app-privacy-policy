@@ -1,6 +1,6 @@
 # Privacy Policy — Focused: Screen Time Control
 
-**Effective date:** 17 October 2026
+**Effective date:** 25 October 2026
 **App:** Focused: Screen Time Control (`com.techdev.focused`) for Android
 **Contact:** [tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com)
 
@@ -22,7 +22,8 @@ database and settings), which other apps cannot read.
 | Information | Why | Where it stays |
 |---|---|---|
 | App usage statistics from Android (apps used and for how long, app opens, phone unlocks, number of notifications per app) | Screen time, sessions, pickups, focus score, goals, history, limits | On your phone |
-| Your rules: app limits, schedules, focus sessions and presets, strict mode, website rules, goals | To enforce what you set | On your phone |
+| Your rules: app limits, schedules, focus sessions and presets (including Whole-phone focus, which blocks every app except the ones you keep), strict mode, website rules, programs, goals | To enforce what you set | On your phone |
+| Content filter settings, if you use it: whether the adult filter is on and your list of blocked words | To block matching pages | On your phone |
 | Domains of your own website rules and the time spent on them | Website limits and blocking | On your phone |
 | Optional display name on the Me tab | Personalisation | On your phone |
 
@@ -45,9 +46,16 @@ schedules and blocks you set. It looks at:
   recognise and count short videos;
 - in supported **browsers**, **only the address bar**, to match the websites you chose to block or limit. It is not read
   while you are typing in it. Only the domains of your own rules and the time spent are stored.
+- if you turn on the optional **content filter**, the same address-bar text (including search words a browser shows
+  there) is also checked, on your phone, against the list of adult sites built into the app and your own blocked words.
+  When a page matches, only the fact that it was blocked is stored (as for websites); the address and the matching word
+  are never stored or sent.
+- the **list of open windows**, only to find a **picture-in-picture** window and its app's package name, so a blocked
+  app can't keep playing in a floating window.
 
 The service does **not** read any other text on your screen, never records what you type, passwords or messages, and
-its only actions are going **Back** or **Home** to leave a blocked app. Nothing it sees leaves your phone. You can turn
+its only actions are going **Back** or **Home** to leave a blocked app and closing a blocked app's picture-in-picture
+window. Nothing it sees leaves your phone. You can turn
 it off at any time in Android Settings → Accessibility.
 
 ### Location
@@ -80,6 +88,9 @@ Ads, depending on your phone). After you delete it, apps no longer receive an ad
 - **Android device backup:** if Android's own backup is turned on, Android may include the app's database and settings
   in your encrypted Google account backup so they can be restored on a new phone. This is managed by Android and Google,
   not by us, and can be turned off in your phone's settings.
+- **Share cards:** if you share an achievement from the Achievements screen, the app draws an image on your phone (the
+  achievement, your streak, average focus score and badge count, no other usage details) and hands it to the app you
+  pick in Android's share sheet. We never receive it.
 - **Feedback:** if you use *Contact us*, your e-mail app opens with our address, a subject with the app version and, in
   the message, the app version, Android version and phone model to help us answer. You can remove them before sending.
   We use your e-mail only to reply to you.
@@ -106,8 +117,10 @@ The app includes these Google components, which are governed by
   websites, rules or anything the accessibility service sees. Data is sent encrypted to Google (Firebase), acting as
   our service provider, is not sold, and is kept by Google for a limited time, as configured in Firebase (by default
   2 months for user-level data). See [Firebase privacy and security](https://firebase.google.com/support/privacy).
-- **Google Play Billing** — for the optional "Remove ads" purchase when it is offered. We never see your payment
-  details; Google Play only tells the app whether the purchase is owned.
+- **Google Play Billing** — for the optional "Remove ads" purchase when it is offered, and the optional paid early
+  exit (a one-time purchase that ends a strict or Deep focus session, or lifts a strict limit until midnight). The
+  purchase carries only an internal number of that session or limit (never its name or apps), so the app can end the
+  right one. We never see your payment details; Google Play only tells the app whether a purchase was made.
 - **Google AdMob and the User Messaging Platform (UMP)** — **ads are currently turned off** and no ads are requested.
   If a future version shows ads, you will be asked for consent where the law requires it (for example in the EEA, the
   UK and some US states) and can change your choice in the app. AdMob may then collect device identifiers such as the
