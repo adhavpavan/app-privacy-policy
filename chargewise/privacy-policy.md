@@ -1,6 +1,6 @@
 # Privacy Policy — Chargewise: Battery Health
 
-Effective date: 24 October 2026 · Package `com.techdev.chargewise` · Contact: tecdroiddeveloper@gmail.com
+Effective date: 25 October 2026 · Package `com.techdev.chargewise` · Contact: tecdroiddeveloper@gmail.com
 
 **In short:** Chargewise reads your phone's battery information on the phone itself and keeps your battery history
 there. There is no account and no server of ours, and your battery data is never uploaded. To fix crashes and
@@ -37,7 +37,7 @@ Chargewise needs no permission to show battery information.
   and advertising ID (Firebase Analytics).
 
 ## 3. Exports, backups and feedback
-Charger test results stay on your phone. When you tap Share on the weekly report or a reading card, the app creates an image on your phone and hands it only to the app you pick; it is not sent anywhere else. When you export your history as a CSV file, the file is created on your phone and saved only where you choose with
+Charger test results stay on your phone. When you tap Share on the weekly report or a reading card, the app creates an image on your phone and hands it only to the app you pick; it is not sent anywhere else. When you save or share the battery certificate, the app creates a PDF on your phone (your phone model and battery figures) and saves it only where you choose or hands it only to the app you pick. When you export your history as a CSV file, the file is created on your phone and saved only where you choose with
 Android's file picker; it goes only where you send it. Android may include the app's settings and history in your
 own Google account backup if you turned device backup on; that is handled by Android and Google, not by us. When you use
 "Contact us", your e-mail app opens with the app version, Android version and phone model added so we can help; you
