@@ -1,10 +1,11 @@
 # App Privacy Policies
 
-Public privacy policies for TechDev Android apps, served with GitHub Pages.
+Public privacy policies for TechDev Android and iOS apps, served with GitHub Pages.
 
 | App | Package | Policy URL |
 |---|---|---|
 | Focused: Screen Time Control | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/focused/delete-data/ |
+| Focused: Screen Time Control (iOS) | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused-ios/ (no data collected, so no deletion page) |
 | Corelyze: CPU & Device Info | `com.techdev.corelyze` | https://adhavpavan.github.io/app-privacy-policy/corelyze/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/corelyze/delete-data/ |
 | Chargewise: Battery Health | `com.techdev.chargewise` | https://adhavpavan.github.io/app-privacy-policy/chargewise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/chargewise/delete-data/ |
 | Measurely: Sound, Level, Lux | `com.techdev.measurely` | https://adhavpavan.github.io/app-privacy-policy/measurely/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/measurely/delete-data/ |
@@ -28,6 +29,7 @@ the source of truth is the app repo.
 | App | Source in app repo | Copied to |
 |---|---|---|
 | Focused | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `focused/privacy-policy.md`, `focused/index.html` |
+| Focused iOS | `focused-ios/docs/policy/privacy-policy.md`, `privacy-policy.html` | `focused-ios/privacy-policy.md`, `focused-ios/index.html` |
 | Corelyze | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `corelyze/privacy-policy.md`, `corelyze/index.html` |
 | Chargewise | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `chargewise/privacy-policy.md`, `chargewise/index.html` |
 | Measurely | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `measurely/privacy-policy.md`, `measurely/index.html` |
