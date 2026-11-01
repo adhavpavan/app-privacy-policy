@@ -11,6 +11,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | Measurely: Sound, Level, Lux | `com.techdev.measurely` | https://adhavpavan.github.io/app-privacy-policy/measurely/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/measurely/delete-data/ |
 | Northwise: Digital Compass | `com.techdev.northwise` | https://adhavpavan.github.io/app-privacy-policy/northwise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/northwise/delete-data/ |
 | Decibly: Sound Meter & dB | `com.techdev.decibly` | https://adhavpavan.github.io/app-privacy-policy/decibly/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/decibly/delete-data/ |
+| Data Manager and App Usage | `com.techdev.internetspeedmeter` | https://adhavpavan.github.io/app-privacy-policy/data-manager/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/data-manager/delete-data/ |
 
 ## Hosting
 
@@ -35,6 +36,7 @@ the source of truth is the app repo.
 | Measurely | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `measurely/privacy-policy.md`, `measurely/index.html` |
 | Northwise | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `northwise/privacy-policy.md`, `northwise/index.html` |
 | Decibly | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `decibly/privacy-policy.md`, `decibly/index.html` |
+| Data Manager | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `data-manager/privacy-policy.md`, `data-manager/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy
@@ -59,3 +61,7 @@ first, then `scripts/sync_policy.sh` copies both files here.
 Decibly (`new-apps/sound-meter` repo): same steps; render the HTML with
 `python3 -I scripts/policy_md2html.py docs/playstore/policy/privacy-policy.md docs/playstore/policy/privacy-policy.html docs/playstore/policy/privacy-policy.html`
 first, then `scripts/sync_policy.sh` copies both files here.
+
+Data Manager (`Pavan_ISM/InternetSpeedMeter` repo): same steps; `scripts/sync_policy.sh` re-renders the HTML from the
+Markdown and copies both here. The in-app copy is the `privacy_*` strings in `strings_settings.xml` (all locales).
+`data-manager/delete-data/` exists only in this repo.
