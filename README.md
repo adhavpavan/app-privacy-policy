@@ -5,7 +5,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | App | Package | Policy URL |
 |---|---|---|
 | Focused: Screen Time Control | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/focused/delete-data/ |
-| Focused: Screen Time Control (iOS) | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused-ios/ (no data collected, so no deletion page) · support: https://adhavpavan.github.io/app-privacy-policy/focused-ios/support/ |
+| Focused: Control Your Time (iOS) | `com.techdev.focused` | https://adhavpavan.github.io/app-privacy-policy/focused-ios/ (no data collected, so no deletion page) · support: https://adhavpavan.github.io/app-privacy-policy/focused-ios/support/ |
 | Corelyze: CPU & Device Info | `com.techdev.corelyze` | https://adhavpavan.github.io/app-privacy-policy/corelyze/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/corelyze/delete-data/ |
 | Chargewise: Battery Health | `com.techdev.chargewise` | https://adhavpavan.github.io/app-privacy-policy/chargewise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/chargewise/delete-data/ |
 | Measurely: Sound, Level, Lux | `com.techdev.measurely` | https://adhavpavan.github.io/app-privacy-policy/measurely/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/measurely/delete-data/ |

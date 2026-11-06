@@ -1,4 +1,4 @@
-# Privacy Policy — Focused: Screen Time Control for iPhone and iPad
+# Privacy Policy — Focused: Control Your Time for iPhone and iPad
 
 Effective date: 6 November 2026
 
@@ -6,7 +6,7 @@ Effective date: 6 November 2026
 shown to you on your device. We have no accounts, no servers, no ads, no analytics and no tracking. Nothing you do in
 the app is sent to us or to anyone else.
 
-This policy explains how Focused: Screen Time Control ("Focused", "the app", "we"), bundle ID `com.techdev.focused`,
+This policy explains how Focused: Control Your Time ("Focused", "the app", "we"), bundle ID `com.techdev.focused`,
 handles information on iPhone and iPad. The Android app has its own policy.
 
 ## 1. What the app uses, and where it stays
