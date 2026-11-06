@@ -1,6 +1,6 @@
 # Privacy Policy — Focused: Screen Time Control for iPhone and iPad
 
-Effective date: 27 October 2026
+Effective date: 6 November 2026
 
 **In short:** Focused collects no data. Your Screen Time data is handled by Apple's Screen Time framework and is only
 shown to you on your device. We have no accounts, no servers, no ads, no analytics and no tracking. Nothing you do in
@@ -17,7 +17,7 @@ handles information on iPhone and iPad. The Android app has its own policy.
 | The apps, categories and websites you choose in Apple's picker | To apply your limits, schedules and focus sessions | On your device, as Apple-issued tokens that don't reveal which apps they stand for to us |
 | Website addresses you type into a rule | To block those websites | On your device |
 | Your rules, focus sessions, presets, programs, goals, intentions you tap on the block screen, and settings | To run the features you set up | On your device (the app's private storage) |
-| Safari Lite mode (if you turn it on in Safari settings) | Hides short-video feeds on the websites listed in the extension and blocks pages that match your keywords | Runs inside Safari on your device; it keeps no browsing history and sends nothing |
+| Safari Lite mode (if you turn it on in Safari settings) | Hides short-video feeds and the posts that match your keywords on Instagram, YouTube, Facebook and X (the only websites it runs on) | Runs inside Safari on your device; it keeps no browsing history and sends nothing |
 | Purchases (Focused Pro) | To unlock Pro features | Handled by Apple. We receive no payment details |
 
 We do **not** collect your name, e-mail address, phone number, contacts, location, photos, messages, browsing history
