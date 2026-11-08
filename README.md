@@ -12,6 +12,11 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | Northwise: Digital Compass | `com.techdev.northwise` | https://adhavpavan.github.io/app-privacy-policy/northwise/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/northwise/delete-data/ |
 | Decibly: Sound Meter & dB | `com.techdev.decibly` | https://adhavpavan.github.io/app-privacy-policy/decibly/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/decibly/delete-data/ |
 | Data Manager and App Usage | `com.techdev.internetspeedmeter` | https://adhavpavan.github.io/app-privacy-policy/data-manager/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/data-manager/delete-data/ |
+| WiFi Analyzer & Who's on WiFi | `com.techdev.wifianalyzer` | https://adhavpavan.github.io/app-privacy-policy/wifi-analyzer/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/wifi-analyzer/delete-data/ |
+| Voice Recorder | `com.techdev.voicerecorder` | https://adhavpavan.github.io/app-privacy-policy/voice-recorder/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/voice-recorder/delete-data/ |
+| Compress Image | `com.techdev.compressimage` | https://adhavpavan.github.io/app-privacy-policy/compress-image/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/compress-image/delete-data/ |
+| Image Converter | `com.techdev.imageconverter` | https://adhavpavan.github.io/app-privacy-policy/image-converter/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/image-converter/delete-data/ |
+| QR Code Scanner & Generator | `com.techdev.qrscanner` | https://adhavpavan.github.io/app-privacy-policy/qr-scanner/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/qr-scanner/delete-data/ |
 
 ## Hosting
 
@@ -37,6 +42,11 @@ the source of truth is the app repo.
 | Northwise | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `northwise/privacy-policy.md`, `northwise/index.html` |
 | Decibly | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `decibly/privacy-policy.md`, `decibly/index.html` |
 | Data Manager | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `data-manager/privacy-policy.md`, `data-manager/index.html` |
+| WiFi Analyzer | In-app copy in `wifi-analyser-whos-on-wifi`: `strings_privacy.xml`, `strings_privacy_wifi.xml` (effective 1 November 2026). `docs/playstore/policy/` is not in that repo yet | `wifi-analyzer/privacy-policy.md`, `wifi-analyzer/index.html` |
+| Voice Recorder | In-app copy in `voice-recorder`: `strings_privacy.xml`, `strings_app_voice.xml` (effective 1 November 2026) | `voice-recorder/privacy-policy.md`, `voice-recorder/index.html` |
+| Compress Image | In-app copy in `compress-image-pdf`: `strings_privacy.xml` (effective 1 November 2026) | `compress-image/privacy-policy.md`, `compress-image/index.html` |
+| Image Converter | In-app copy in `image-pdf-converter`: `strings_privacy.xml` (effective 1 November 2026) | `image-converter/privacy-policy.md`, `image-converter/index.html` |
+| QR Scanner | `qr-code-scannar/docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `qr-scanner/privacy-policy.md`, `qr-scanner/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy
@@ -65,3 +75,5 @@ first, then `scripts/sync_policy.sh` copies both files here.
 Data Manager (`Pavan_ISM/InternetSpeedMeter` repo): same steps; `scripts/sync_policy.sh` re-renders the HTML from the
 Markdown and copies both here. The in-app copy is the `privacy_*` strings in `strings_settings.xml` (all locales).
 `data-manager/delete-data/` exists only in this repo.
+
+`wifi-analyzer/delete-data/`, `voice-recorder/delete-data/`, `compress-image/delete-data/`, `image-converter/delete-data/` and `qr-scanner/delete-data/` (data deletion pages for Play) exist only in this repo. The pages were first published on 8 November 2026 from each app's in-app policy. QR Scanner's page is a copy of `qr-code-scannar/docs/playstore/policy/`.
