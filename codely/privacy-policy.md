@@ -1,11 +1,11 @@
-# Privacy Policy — Honest QR for iPhone and iPad
+# Privacy Policy — Codely for iPhone and iPad
 
 Effective date: 2026-11-16
 
-**In short:** Honest QR collects no data. No account, no servers of ours, no ads, no analytics, no tracking. The
+**In short:** Codely collects no data. No account, no servers of ours, no ads, no analytics, no tracking. The
 codes you scan and make stay on your device.
 
-This policy explains how Honest QR ("the app", "we"), bundle ID `com.techdev.honestqr`, handles information.
+This policy explains how Codely ("the app", "we"), bundle ID `com.techdev.codely`, handles information.
 
 ## 1. What the app uses, and where it stays
 
