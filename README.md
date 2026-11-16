@@ -19,7 +19,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | QR Code Scanner & Generator | `com.techdev.qrscanner` | https://adhavpavan.github.io/app-privacy-policy/qr-scanner/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/qr-scanner/delete-data/ |
 | Spokenote: AI Voice Recorder (iOS) | `com.techdev.spokenote` | https://adhavpavan.github.io/app-privacy-policy/spokenote/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/spokenote/support/ |
 | QR Buddy: QR & Barcode Scanner (iOS) | `com.techdev.qrbuddy` | https://adhavpavan.github.io/app-privacy-policy/qrbuddy/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/qrbuddy/support/ |
-| Remotio: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
+| Remote-IO: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
 
 ## Hosting
 
