@@ -14,6 +14,7 @@ This policy explains how Spokenote ("the app", "we"), bundle ID `com.techdev.spo
 | Transcripts | Made on your device by Apple's speech recognition (SpeechAnalyzer) | On your device |
 | Summaries, key points, action items, titles | Made on your device by Apple's on-device model (Apple Intelligence, Foundation Models) | On your device |
 | Folders, tags, favourites, bookmarks, settings | To organise your notes | On your device |
+| Note titles, tags and the first lines of summaries or transcripts | So you can find notes with iPhone/Mac Search (Spotlight). Not indexed while App lock is on | On your device (Apple's on-device search index) |
 | Titles, dates and lengths of your 3 latest notes | Shown in Spokenote's widgets | On your device (shared only with Spokenote's own widgets) |
 | Purchases (if offered in a later version) | To unlock Pro features | Handled by Apple. We receive no payment details |
 

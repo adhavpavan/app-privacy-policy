@@ -19,7 +19,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | QR Code Scanner & Generator | `com.techdev.qrscanner` | https://adhavpavan.github.io/app-privacy-policy/qr-scanner/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/qr-scanner/delete-data/ |
 | Spokenote: AI Voice Recorder (iOS) | `com.techdev.spokenote` | https://adhavpavan.github.io/app-privacy-policy/spokenote/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/spokenote/support/ |
 | Codely: QR Code Scanner (iOS) | `com.techdev.codely` | https://adhavpavan.github.io/app-privacy-policy/codely/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/codely/support/ |
-| Fairmote: TV Remote Control (iOS) | `com.techdev.fairmote` | https://adhavpavan.github.io/app-privacy-policy/fairmote/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/fairmote/support/ |
+| Remotio: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
 
 ## Hosting
 
@@ -52,7 +52,7 @@ the source of truth is the app repo.
 | QR Scanner | `qr-code-scannar/docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `qr-scanner/privacy-policy.md`, `qr-scanner/index.html` |
 | Spokenote (iOS) | `new-apps/voice-notes-ai/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `spokenote/privacy-policy.md`, `spokenote/index.html`, `spokenote/support/index.html` |
 | Codely (iOS) | `new-apps/qr-barcode-kit/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `codely/privacy-policy.md`, `codely/index.html`, `codely/support/index.html` |
-| Fairmote (iOS) | `new-apps/universal-tv-remote/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `fairmote/privacy-policy.md`, `fairmote/index.html`, `fairmote/support/index.html` |
+| Remotio (iOS) | `new-apps/universal-tv-remote/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `remotio/privacy-policy.md`, `remotio/index.html`, `remotio/support/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · Fairmote</title>
-<meta name="description" content="Privacy policy of Fairmote, the Wi-Fi TV remote for iPhone and iPad: no data collected.">
+<title>Privacy Policy · Remotio</title>
+<meta name="description" content="Privacy policy of Remotio, the Wi-Fi TV remote for iPhone and iPad: no data collected.">
 <meta name="color-scheme" content="light dark">
 <style>
   :root {
@@ -89,12 +89,13 @@
     </div>
     <div>
       <h1>Privacy Policy</h1>
-      <div class="meta">Fairmote for iPhone and iPad · Effective 2026-11-16</div>
+      <div class="meta">Remotio for iPhone and iPad · Effective 2026-11-16</div>
     </div>
   </header>
 
-  <p class="summary"><strong>In short:</strong> Fairmote collects no data. No account, no servers of ours, no ads,
-    no analytics, no tracking. The app talks only to the TV on your home network.</p>
+  <p class="summary"><strong>In short:</strong> Remotio collects no data. No account, no servers of ours, no ads,
+    no analytics, no tracking. The app talks only to the TV on your home network and, if you allow it, to Apple Home
+    (HomeKit) on your own devices.</p>
 
   <!-- Keep in step with privacy-policy.md (the source). Bump the effective date on every change. -->
   <section id="uses">
@@ -104,58 +105,74 @@
       <tr><td>Your TV list: the name you gave it, brand/platform, model, IP address on your network, network (MAC) address if the TV reports it</td><td>To find and reconnect to your TV; the MAC address is for waking the TV over the network where supported</td><td>On your device, in the app's shared storage (also read by the app's own widgets and controls)</td></tr>
       <tr><td>Pairing keys your TV gives the app (Samsung token, LG key, Fire TV token) and the app's own security certificate for Google TV / Android TV</td><td>So you don't have to approve or type a code every time</td><td>In the iOS Keychain on this device only; not synced to iCloud</td></tr>
       <tr><td>Remote buttons you press and text you type in the keyboard screen</td><td>To control your TV</td><td>Sent directly to your TV over your Wi-Fi. Not stored, not sent anywhere else</td></tr>
-      <tr><td>Settings (appearance, accent, haptics, remote options)</td><td>To remember your choices</td><td>On your device</td></tr>
+      <tr><td>Settings (appearance, accent, haptics, remote options, chosen home and TV room, demo home on/off)</td><td>To remember your choices</td><td>On your device</td></tr>
+      <tr><td>Apple Home data, only if you allow HomeKit access: names of your homes, rooms, accessories and scenes, and their current state (on/off, temperature, mode, brightness…)</td><td>To show and control your air conditioners, lights and scenes in the Home tab</td><td>Read from Apple Home on your device. Commands go to your accessories through Apple Home. Never sent to us</td></tr>
+      <tr><td>A short copy of your ACs' and scenes' names and last-known state</td><td>So the app's own widgets, Control Center controls and Siri can show and list them</td><td>On your device, in the app's shared storage. Not sent anywhere</td></tr>
     </table></div>
     <p>We do not collect your name, e-mail address, contacts, location, photos, microphone, or any identifier.</p>
   </section>
 
   <section id="local-network">
     <h2><span class="n">2.</span>Local network</h2>
-    <p>To find your TV and send buttons to it, Fairmote needs iOS <strong>Local Network</strong> access. With it, the app:</p>
+    <p>To find your TV and send buttons to it, Remotio needs iOS <strong>Local Network</strong> access. With it, the app:</p>
     <ul>
       <li>looks for TVs with Bonjour (the same discovery AirPlay uses) and by briefly checking addresses on your own Wi-Fi network for the ports smart TVs use;</li>
       <li>reads basic information TVs share on the network (name, model, network address) to show them in a list;</li>
       <li>sends remote commands and typed text to the TV you chose.</li>
     </ul>
-    <p>None of this traffic leaves your home network. You can turn Local Network off any time in Settings › Fairmote; the demo TV still works.</p>
+    <p>None of this traffic leaves your home network. You can turn Local Network off any time in Settings › Remotio; the demo TV still works.</p>
+  </section>
+
+  <section id="homekit">
+    <h2><span class="n">3.</span>Apple Home (HomeKit)</h2>
+    <p>The <strong>Home</strong> tab shows accessories and scenes from Apple Home. The app asks for HomeKit access only
+      when you open that tab and tap Continue. With it, the app reads your homes, rooms, accessories and scenes, changes
+      accessories when you tap them (for example the AC temperature), runs scenes, and creates a "Movie mode" scene
+      <strong>only after you confirm</strong> the list of what it does. HomeKit is Apple's framework: your home data is
+      stored and synced by Apple Home on your devices (and iCloud, if you use it). Remotio has no server; nothing
+      about your home is sent to us or to anyone else. iPhone has no infrared; the app controls only accessories that
+      are in Apple Home. If you don't allow access, the TV remote works as before and the Home tab offers a demo home
+      with made-up accessories. You can change the permission any time in Settings › Remotio.</p>
   </section>
 
   <section id="permissions">
-    <h2><span class="n">3.</span>Other permissions</h2>
+    <h2><span class="n">4.</span>Other permissions</h2>
     <ul>
       <li><strong>Face ID / Touch ID</strong> (optional App lock): iOS checks it; the app only learns whether it succeeded.</li>
       <li><strong>Live Activities</strong> (optional Lock Screen remote): shown only when you turn it on from the remote screen.</li>
     </ul>
-    <p>The app does not ask for notifications, microphone, camera, photos, location, contacts or HomeKit.</p>
+    <p>The app does not ask for notifications, microphone, camera, photos, location or contacts.</p>
   </section>
 
   <section id="third">
-    <h2><span class="n">4.</span>Third-party services</h2>
+    <h2><span class="n">5.</span>Third-party services</h2>
     <p>None. The app contains no third-party analytics, advertising, crash-reporting or tracking software, and no ad
       SDK. If you share analytics with developers in iOS settings, Apple may send us anonymous crash reports. Once a
       day the app asks Apple's App Store whether a newer version exists; that request contains only the app's ID and
-      your store country. TV brand names are trademarks of their owners; Fairmote is not affiliated with any TV maker.</p>
+      your store country. TV brand names are trademarks of their owners; Remotio is not affiliated with any TV maker.</p>
   </section>
 
   <section id="sharing">
-    <h2><span class="n">5.</span>Sharing, selling, children</h2>
+    <h2><span class="n">6.</span>Sharing, selling, children</h2>
     <p>We do not sell, rent or share any information. The app collects no personal information from anyone, including
       children.</p>
   </section>
 
   <section id="delete">
-    <h2><span class="n">6.</span>Keeping and deleting data</h2>
+    <h2><span class="n">7.</span>Keeping and deleting data</h2>
     <p>Everything stays on your device and in your own device backups (Keychain items are device-only). To remove it:
-      TVs › swipe a TV › Forget (removes the TV and its pairing keys), Settings › Forget all pairings, or delete the app.</p>
+      TVs › swipe a TV › Forget (removes the TV and its pairing keys), Settings › Forget all pairings, or delete the app.
+      Your Apple Home data is managed in Apple's Home app; deleting Remotio does not change it (a Movie mode scene you
+      created stays in the Home app until you delete it there).</p>
   </section>
 
   <section id="changes">
-    <h2><span class="n">7.</span>Changes and contact</h2>
+    <h2><span class="n">8.</span>Changes and contact</h2>
     <p>We update this page when the app changes; the effective date is at the top. Questions:
       <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a> · <a href="support/">Support</a></p>
   </section>
 
-  <footer>© 2026 Fairmote · <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a></footer>
+  <footer>© 2026 Remotio · <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a></footer>
 </main>
 </body>
 </html>
