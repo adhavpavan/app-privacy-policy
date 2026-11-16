@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Honest QR</title>
+<meta name="description" content="Privacy policy of Honest QR for iPhone and iPad: no data collected.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --page: #f6f8fb; --card: #ffffff; --ink: #0f172a; --muted: #475569; --line: #e2e8f0;
+    --brand: #3b82f6; --brand-soft: #e8f0fe; --ok: #059669; --ok-soft: #e7f7f1;
+    --radius: 16px; --shadow: 0 1px 2px rgba(15,23,42,.06), 0 4px 16px rgba(15,23,42,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #0b1018; --card: #121a26; --ink: #e5ebf3; --muted: #9aa8bb; --line: #223044;
+      --brand: #6ea4ff; --brand-soft: #16233a; --ok: #34d399; --ok-soft: #0f2a22;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
+  }
+  a { color: var(--brand); text-underline-offset: 2px; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 32px 16px 64px; }
+  header.hero { display: flex; gap: 16px; align-items: center; margin-bottom: 24px; }
+  .logo {
+    flex: none; width: 56px; height: 56px; border-radius: 16px;
+    background: linear-gradient(135deg, var(--brand), #8b5cf6);
+    display: grid; place-items: center; color: #fff;
+  }
+  .logo svg { width: 30px; height: 30px; }
+  h1 { font-size: clamp(1.5rem, 4vw, 2rem); line-height: 1.2; margin: 0; letter-spacing: -.01em; }
+  .meta { color: var(--muted); font-size: .92rem; margin-top: 4px; }
+  .summary {
+    background: var(--ok-soft); border: 1px solid color-mix(in srgb, var(--ok) 30%, transparent);
+    border-radius: var(--radius); padding: 16px 18px; margin: 0 0 20px;
+  }
+  .summary strong { color: var(--ok); }
+  nav.toc {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 14px 18px; margin-bottom: 20px; box-shadow: var(--shadow);
+  }
+  nav.toc ol { margin: 6px 0 0; padding-left: 1.3em; columns: 2; column-gap: 32px; }
+  nav.toc li { break-inside: avoid; margin: 2px 0; }
+  nav.toc a { text-decoration: none; }
+  nav.toc a:hover { text-decoration: underline; }
+  section {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 20px 22px; margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  h2 { font-size: 1.2rem; margin: 0 0 10px; line-height: 1.3; }
+  h2 .n { color: var(--brand); margin-right: 6px; }
+  h3 { font-size: 1rem; margin: 18px 0 6px; }
+  p { margin: 8px 0; }
+  ul { margin: 8px 0; padding-left: 1.25em; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); }
+  .table-wrap { overflow-x: auto; margin: 12px 0 4px; border: 1px solid var(--line); border-radius: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 520px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { background: var(--brand-soft); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  .pill {
+    display: inline-block; font-size: .78rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+    background: var(--brand-soft); color: var(--brand); vertical-align: middle;
+  }
+  footer { color: var(--muted); font-size: .9rem; text-align: center; margin-top: 28px; }
+  @media (max-width: 600px) {
+    .wrap { padding-top: 20px; }
+    section { padding: 16px; }
+    nav.toc ol { columns: 1; }
+  }
+  @media print {
+    body { background: #fff; color: #000; }
+    section, nav.toc { box-shadow: none; break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"/></svg>
+    </div>
+    <div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">Honest QR for iPhone and iPad · Effective 2026-11-16</div>
+    </div>
+  </header>
+
+  <p class="summary"><strong>In short:</strong> Honest QR collects no data. No account, no servers of ours, no ads,
+    no analytics, no tracking. The codes you scan and make stay on your device.</p>
+
+  <!-- Keep in step with privacy-policy.md (the source). Bump the effective date on every change. -->
+  <section id="uses">
+    <h2><span class="n">1.</span>What the app uses, and where it stays</h2>
+    <div class="table-wrap"><table>
+      <tr><th>Information</th><th>Why</th><th>Where it stays</th></tr>
+      <tr><td>Camera picture</td><td>To read QR codes and barcodes live</td><td>Processed in memory on your device. Never recorded, saved or uploaded</td></tr>
+      <tr><td>Photos, screenshots and PDFs you pick or share to the app</td><td>To read the codes in them</td><td>Read once in memory on your device. No copy kept; no access to your photo library</td></tr>
+      <tr><td>History (the text of codes you scan or make)</td><td>So you can find a code again</td><td>On your device. Wi-Fi passwords are removed before saving unless you turn on "Keep Wi-Fi passwords in History". History can be switched off or deleted</td></tr>
+      <tr><td>My codes (saved codes, their style, an optional logo you pick)</td><td>To show them full screen and on the widget</td><td>On your device</td></tr>
+      <tr><td>Settings</td><td>To remember your choices</td><td>On your device</td></tr>
+    </table></div>
+    <p>We do not collect your name, e-mail address, contacts, calendar, location, photos or any identifier. The link
+      check runs entirely on your device: links are never sent to us or to any "safe browsing" service.</p>
+  </section>
+
+  <section id="permissions">
+    <h2><span class="n">2.</span>Permissions (all optional)</h2>
+    <ul>
+      <li><strong>Camera</strong>: to scan codes live. Without it you can still scan photos, screenshots and PDFs.</li>
+      <li><strong>Add to Photos</strong> (add-only): when you tap "Save to Photos" for a code you made. The app cannot see your library.</li>
+      <li><strong>Face ID / Touch ID</strong> (optional App lock): iOS checks it; the app only learns whether it succeeded.</li>
+      <li><strong>Join Wi-Fi</strong>: when you tap "Join network", the network name and password go to iOS, which asks you to confirm.</li>
+      <li><strong>Contacts and Calendar</strong>: not read. "Add to Contacts" and "Add to Calendar" open Apple's own screens; you decide whether to save.</li>
+    </ul>
+  </section>
+
+  <section id="leaves">
+    <h2><span class="n">3.</span>When something leaves your device: only when you tap</h2>
+    <ul>
+      <li><strong>Opening a link</strong> opens it in Safari. The website then receives what any visited website receives.</li>
+      <li><strong>Product lookup</strong> ("Look up food", "Look up book", "Search the web") opens the public website of Open Food Facts, Open Library or DuckDuckGo with the barcode number in the address. The app itself makes no request.</li>
+      <li><strong>Open in Maps / UPI app / Mail / Messages / Phone</strong> hands the code's content to that app.</li>
+      <li><strong>Share and export</strong> (images, CSV, PDF, ZIP) go only where you send them.</li>
+    </ul>
+  </section>
+
+  <section id="third">
+    <h2><span class="n">4.</span>Third-party services</h2>
+    <p>None built in. No third-party analytics, advertising, crash-reporting or tracking software. If you share
+      analytics with developers in iOS settings, Apple may send us anonymous crash reports. Once a day the app asks the
+      App Store whether a newer version exists; the request contains only the app's ID and your store country.</p>
+  </section>
+
+  <section id="sharing">
+    <h2><span class="n">5.</span>Sharing, selling, children</h2>
+    <p>We do not sell, rent or share any information. The app collects no personal information from anyone, including
+      children.</p>
+  </section>
+
+  <section id="delete">
+    <h2><span class="n">6.</span>Keeping and deleting data</h2>
+    <p>Everything stays on your device and in your own device backups. Delete single entries or everything in History
+      (History › More › Delete all), delete codes in My codes, or delete the app to remove all its data.</p>
+  </section>
+
+  <section id="limits">
+    <h2><span class="n">7.</span>Honest limits</h2>
+    <p>The link check looks only at a link's address with fixed rules (for example look-alike names, short links, bare
+      number addresses, unusual endings, app or profile downloads). It cannot see what a page contains and is not virus
+      or malware protection.</p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="n">8.</span>Changes and contact</h2>
+    <p>We update this page when the app changes; the effective date is at the top. Questions:
+      <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a> · <a href="support/">Support</a></p>
+  </section>
+
+  <footer>© 2026 Honest QR · <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a></footer>
+</main>
+</body>
+</html>

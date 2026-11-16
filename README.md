@@ -17,6 +17,9 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | Compress Image | `com.techdev.compressimage` | https://adhavpavan.github.io/app-privacy-policy/compress-image/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/compress-image/delete-data/ |
 | Image Converter | `com.techdev.imageconverter` | https://adhavpavan.github.io/app-privacy-policy/image-converter/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/image-converter/delete-data/ |
 | QR Code Scanner & Generator | `com.techdev.qrscanner` | https://adhavpavan.github.io/app-privacy-policy/qr-scanner/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/qr-scanner/delete-data/ |
+| Spokenote: AI Voice Recorder (iOS) | `com.techdev.spokenote` | https://adhavpavan.github.io/app-privacy-policy/spokenote/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/spokenote/support/ |
+| Honest QR – Scanner & Maker (iOS) | `com.techdev.honestqr` | https://adhavpavan.github.io/app-privacy-policy/honest-qr/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/honest-qr/support/ |
+| Fairmote: TV Remote Control (iOS) | `com.techdev.fairmote` | https://adhavpavan.github.io/app-privacy-policy/fairmote/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/fairmote/support/ |
 
 ## Hosting
 
@@ -47,6 +50,9 @@ the source of truth is the app repo.
 | Compress Image | In-app copy in `compress-image-pdf`: `strings_privacy.xml` (effective 1 November 2026) | `compress-image/privacy-policy.md`, `compress-image/index.html` |
 | Image Converter | In-app copy in `image-pdf-converter`: `strings_privacy.xml` (effective 1 November 2026) | `image-converter/privacy-policy.md`, `image-converter/index.html` |
 | QR Scanner | `qr-code-scannar/docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `qr-scanner/privacy-policy.md`, `qr-scanner/index.html` |
+| Spokenote (iOS) | `new-apps/voice-notes-ai/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `spokenote/privacy-policy.md`, `spokenote/index.html`, `spokenote/support/index.html` |
+| Honest QR (iOS) | `new-apps/qr-barcode-kit/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `honest-qr/privacy-policy.md`, `honest-qr/index.html`, `honest-qr/support/index.html` |
+| Fairmote (iOS) | `new-apps/universal-tv-remote/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `fairmote/privacy-policy.md`, `fairmote/index.html`, `fairmote/support/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy
