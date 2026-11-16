@@ -1,6 +1,6 @@
 # Privacy Policy — Codely for iPhone and iPad
 
-Effective date: 2026-11-16
+Effective date: 2026-11-16 (updated 2026-11-16 for backups, exports, printing and the copy setting)
 
 **In short:** Codely collects no data. No account, no servers of ours, no ads, no analytics, no tracking. The
 codes you scan and make stay on your device.
@@ -15,6 +15,9 @@ This policy explains how Codely ("the app", "we"), bundle ID `com.techdev.codely
 | Photos, screenshots and PDFs you pick or share to the app | To read the codes in them | Read once in memory on your device. The app does not keep a copy and has no access to your photo library |
 | History (the text of codes you scan or make) | So you can find a code again | In the app's storage on your device. Wi-Fi passwords are removed before saving unless you turn on "Keep Wi-Fi passwords in History". You can switch History off, delete single entries or delete everything |
 | My codes (codes you save, their style and an optional logo image you pick) | To show them full screen and on the widget | In the app's storage on your device |
+| CSV / text files you import for Bulk create | To make many codes at once | Read once in memory on your device; not kept |
+| Backup files you make or restore (Settings › Data & backup) | To keep a copy of History and My codes, or bring them back | Made on your device and saved only where you choose (for example Files or iCloud Drive). It contains History (with Wi-Fi passwords only if you kept them) and My codes with their images. Codely uploads nothing |
+| Clipboard | Paste reads a copied image or link only when you tap Paste; "Copy result automatically" (off by default) copies what you scan | On your device |
 | Settings | To remember your choices | On your device |
 
 We do not collect your name, e-mail address, contacts, calendar, location, photos or any identifier. The link check
@@ -37,7 +40,8 @@ runs entirely on your device: the app never sends links to us or to any "safe br
 - **Product lookup** ("Look up food", "Look up book", "Search the web") opens the public website of Open Food
   Facts, Open Library or DuckDuckGo with the barcode number in the address. The app itself makes no request.
 - **Open in Maps / UPI app / Mail / Messages / Phone** hands the code's content to that app.
-- **Share and export** (images, CSV, PDF, ZIP) go only where you send them.
+- **Share and export** (images, SVG, CSV, JSON, PDF, ZIP, backup files) go only where you send them.
+- **Print** sends the page to the printer you pick in the iOS print sheet.
 
 ## 4. Third-party services
 
@@ -53,7 +57,9 @@ children.
 ## 6. Keeping and deleting data
 
 Everything stays on your device and in your own device backups. Delete single entries or everything in History
-(History › More › Delete all), delete codes in My codes, or delete the app to remove all its data.
+(History › More › Delete all), let Codely delete old scans automatically (Settings › Data & backup › Keep history;
+favourites stay), delete codes in My codes, or delete the app to remove all its data. Backup files you saved
+elsewhere are yours to delete.
 
 ## 7. Honest limits
 
