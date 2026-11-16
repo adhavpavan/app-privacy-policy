@@ -1,11 +1,11 @@
-# Privacy Policy — Codely for iPhone and iPad
+# Privacy Policy — QR Buddy for iPhone and iPad
 
 Effective date: 2026-11-16 (updated 2026-11-16 for backups, exports, printing and the copy setting)
 
-**In short:** Codely collects no data. No account, no servers of ours, no ads, no analytics, no tracking. The
+**In short:** QR Buddy collects no data. No account, no servers of ours, no ads, no analytics, no tracking. The
 codes you scan and make stay on your device.
 
-This policy explains how Codely ("the app", "we"), bundle ID `com.techdev.codely`, handles information.
+This policy explains how QR Buddy ("the app", "we"), bundle ID `com.techdev.qrbuddy`, handles information.
 
 ## 1. What the app uses, and where it stays
 
@@ -16,7 +16,7 @@ This policy explains how Codely ("the app", "we"), bundle ID `com.techdev.codely
 | History (the text of codes you scan or make) | So you can find a code again | In the app's storage on your device. Wi-Fi passwords are removed before saving unless you turn on "Keep Wi-Fi passwords in History". You can switch History off, delete single entries or delete everything |
 | My codes (codes you save, their style and an optional logo image you pick) | To show them full screen and on the widget | In the app's storage on your device |
 | CSV / text files you import for Bulk create | To make many codes at once | Read once in memory on your device; not kept |
-| Backup files you make or restore (Settings › Data & backup) | To keep a copy of History and My codes, or bring them back | Made on your device and saved only where you choose (for example Files or iCloud Drive). It contains History (with Wi-Fi passwords only if you kept them) and My codes with their images. Codely uploads nothing |
+| Backup files you make or restore (Settings › Data & backup) | To keep a copy of History and My codes, or bring them back | Made on your device and saved only where you choose (for example Files or iCloud Drive). It contains History (with Wi-Fi passwords only if you kept them) and My codes with their images. QR Buddy uploads nothing |
 | Clipboard | Paste reads a copied image or link only when you tap Paste; "Copy result automatically" (off by default) copies what you scan | On your device |
 | Settings | To remember your choices | On your device |
 
@@ -57,7 +57,7 @@ children.
 ## 6. Keeping and deleting data
 
 Everything stays on your device and in your own device backups. Delete single entries or everything in History
-(History › More › Delete all), let Codely delete old scans automatically (Settings › Data & backup › Keep history;
+(History › More › Delete all), let QR Buddy delete old scans automatically (Settings › Data & backup › Keep history;
 favourites stay), delete codes in My codes, or delete the app to remove all its data. Backup files you saved
 elsewhere are yours to delete.
 

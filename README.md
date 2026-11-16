@@ -18,7 +18,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | Image Converter | `com.techdev.imageconverter` | https://adhavpavan.github.io/app-privacy-policy/image-converter/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/image-converter/delete-data/ |
 | QR Code Scanner & Generator | `com.techdev.qrscanner` | https://adhavpavan.github.io/app-privacy-policy/qr-scanner/ · data deletion: https://adhavpavan.github.io/app-privacy-policy/qr-scanner/delete-data/ |
 | Spokenote: AI Voice Recorder (iOS) | `com.techdev.spokenote` | https://adhavpavan.github.io/app-privacy-policy/spokenote/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/spokenote/support/ |
-| Codely: QR Code Scanner (iOS) | `com.techdev.codely` | https://adhavpavan.github.io/app-privacy-policy/codely/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/codely/support/ |
+| QR Buddy: QR & Barcode Scanner (iOS) | `com.techdev.qrbuddy` | https://adhavpavan.github.io/app-privacy-policy/qrbuddy/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/qrbuddy/support/ |
 | Remotio: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
 
 ## Hosting
@@ -51,7 +51,7 @@ the source of truth is the app repo.
 | Image Converter | In-app copy in `image-pdf-converter`: `strings_privacy.xml` (effective 1 November 2026) | `image-converter/privacy-policy.md`, `image-converter/index.html` |
 | QR Scanner | `qr-code-scannar/docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `qr-scanner/privacy-policy.md`, `qr-scanner/index.html` |
 | Spokenote (iOS) | `new-apps/voice-notes-ai/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `spokenote/privacy-policy.md`, `spokenote/index.html`, `spokenote/support/index.html` |
-| Codely (iOS) | `new-apps/qr-barcode-kit/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `codely/privacy-policy.md`, `codely/index.html`, `codely/support/index.html` |
+| QR Buddy (iOS) | `new-apps/qr-barcode-kit/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `qrbuddy/privacy-policy.md`, `qrbuddy/index.html`, `qrbuddy/support/index.html` |
 | Remotio (iOS) | `new-apps/universal-tv-remote/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `remotio/privacy-policy.md`, `remotio/index.html`, `remotio/support/index.html` |
 
 Focused (`focused-screentime-control` repo):
