@@ -33,6 +33,8 @@ devices without Apple Intelligence, summaries are simply not offered.
   play and apply effects to audio.
 - **Speech recognition** (only on devices that use Apple's dictation engine for your language): to transcribe on your
   device.
+- **Reminders** (optional, only when you tap "Add to Reminders"): to add the tasks you pick to your Reminders list.
+  Spokenote only adds items; it does not read or upload your reminders.
 - **Face ID / Touch ID** (optional App lock): your device checks it; the app only learns whether it succeeded.
 - **Files you pick** (import): the app copies only the files you choose.
 
