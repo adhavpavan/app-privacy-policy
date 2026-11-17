@@ -1,6 +1,6 @@
-# Privacy Policy — Spokenote for iPhone, iPad and Mac
+# Privacy Policy — Spokenote for iPhone, iPad, Mac and Apple Watch
 
-Effective date: 2026-11-16
+Effective date: 2026-11-17
 
 **In short:** Spokenote collects no data. No account, no servers, no ads, no analytics, no tracking. Your recordings,
 transcripts and summaries are made and kept on your device. Your voice is never uploaded by the app.
@@ -16,6 +16,8 @@ This policy explains how Spokenote ("the app", "we"), bundle ID `com.techdev.spo
 | Folders, tags, favourites, bookmarks, settings | To organise your notes | On your device |
 | Note titles, tags and the first lines of summaries or transcripts | So you can find notes with iPhone/Mac Search (Spotlight). Not indexed while App lock is on | On your device (Apple's on-device search index) |
 | Titles, dates and lengths of your 3 latest notes | Shown in Spokenote's widgets | On your device (shared only with Spokenote's own widgets) |
+| Recordings made on Apple Watch | Sent from your Apple Watch to Spokenote on your own paired iPhone (Apple's WatchConnectivity, directly between your devices), then handled like any other recording | On your Watch until your iPhone has it, then on your iPhone |
+| Titles, dates, lengths and short summaries of your 10 latest notes | Shown in Spokenote on your paired Apple Watch | On your iPhone and Watch only |
 | Purchases (if offered in a later version) | To unlock Pro features | Handled by Apple. We receive no payment details |
 
 We do not collect your name, e-mail address, contacts, location, photos or any identifier. We cannot see your
@@ -29,7 +31,7 @@ speech recognition.
 devices without Apple Intelligence, summaries are simply not offered.
 
 ## 2. Permissions
-- **Microphone:** to record when you tap Record. The app never records on its own. If you refuse, you can still import,
+- **Microphone:** to record when you tap Record (on iPhone, iPad, Mac or Apple Watch). The app never records on its own. If you refuse, you can still import,
   play and apply effects to audio.
 - **Speech recognition** (only on devices that use Apple's dictation engine for your language): to transcribe on your
   device.

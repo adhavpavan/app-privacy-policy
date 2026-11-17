@@ -1,6 +1,6 @@
-# Privacy Policy — Remote-IO for iPhone and iPad
+# Privacy Policy — Remote-IO for iPhone, iPad and Apple Watch
 
-Effective date: 2026-11-16
+Effective date: 2026-11-17
 
 **In short:** Remote-IO collects no data. No account, no servers of ours, no ads, no analytics, no tracking. The app
 talks only to your TV and the smart-home devices you add on your home network and, if you allow it, to Apple Home
@@ -20,6 +20,7 @@ Published at https://adhavpavan.github.io/app-privacy-policy/remotio/ (support: 
 | Apple Home data, only if you allow HomeKit access: names of your homes, rooms, accessories and scenes, and their current state (on/off, temperature, mode, brightness…) | To show and control your air conditioners, lights and scenes in the Home tab | Read from Apple Home on your device. Commands go to your accessories through Apple Home. Never sent to us |
 | Wi-Fi smart-home devices you add (Philips Hue bridge, Shelly, Nanoleaf, WLED, Elgato, WiZ, Yeelight): name, type, room, IP address on your network, and the pairing key some of them give the app | To show and control them in the Home tab without Apple Home or any account | Device list on your device, in the app's shared storage; pairing keys in the iOS Keychain on this device only. Commands go directly to the device over your Wi-Fi |
 | Your own Home Assistant server, if you connect it: its address on your network and the long-lived access token you paste | To show and control the devices and scenes your Home Assistant manages | Address in the app's shared storage on your device; token in the iOS Keychain on this device only. The token is sent only to your Home Assistant on your home network, never to us or anyone else. Delete it any time in Home Assistant or by removing it in Remote-IO |
+| On Apple Watch: your TV names, which TV is current, and your accent colour; the buttons you press on the watch | So the watch remote can show your TVs by name and send buttons | Passed between your iPhone and your paired Apple Watch by Apple's WatchConnectivity (direct, not through any server of ours). The watch can't reach the TV itself: each press goes to Remote-IO on your iPhone, which sends it to the TV over your Wi-Fi. Nothing is stored on the watch beyond what iOS keeps for that connection |
 | A short copy of your ACs' and scenes' names and last-known state | So the app's own widgets, Control Center controls and Siri can show and list them | On your device, in the app's shared storage. Not sent anywhere |
 
 We do not collect your name, e-mail address, contacts, location, photos, microphone, or any identifier.
@@ -52,6 +53,7 @@ the permission any time in Settings › Remote-IO.
 
 - **Face ID / Touch ID** (optional App lock): iOS checks it; the app only learns whether it succeeded.
 - **Live Activities** (optional Lock Screen remote): shown only when you turn it on from the remote screen.
+- **Apple Watch** (optional): the watch app asks for no permissions; it works through Remote-IO on your iPhone.
 
 The app does not ask for notifications, microphone, camera, photos, location or contacts.
 
