@@ -89,7 +89,7 @@
     </div>
     <div>
       <h1>Privacy Policy</h1>
-      <div class="meta">Focused: Screen Time Control for Android · Effective date: 25 October 2026</div>
+      <div class="meta">Focused: Screen Time Control for Android and Android TV · Effective date: 18 November 2026</div>
     </div>
   </header>
 
@@ -112,13 +112,15 @@
       <li><a href="#retention">Keeping and deleting data</a></li>
       <li><a href="#security">Security</a></li>
       <li><a href="#changes">Changes</a></li>
+      <li><a href="#tv">Focused for Android TV</a></li>
       <li><a href="#contact">Contact</a></li>
     </ol>
   </nav>
 
   <section>
     <p>This policy explains how Focused: Screen Time Control (“Focused”, “the app”, “we”), package
-      <code>com.techdev.focused</code>, handles information.</p>
+      <code>com.techdev.focused</code>, handles information. It covers the phone app and the Android TV app (same
+      package name). Sections 1 to 9 describe the phone app; section 10 describes how the TV app differs.</p>
   </section>
 
   <section id="processing">
@@ -298,11 +300,38 @@
   <section id="changes">
     <h2><span class="n">9.</span>Changes to this policy</h2>
     <p>We may update this policy when the app changes. The current version, with its effective date, is always available
-      in the app (Me → Privacy policy) and on this page.</p>
+      in the app (phone: Me → Privacy policy; TV: Settings → Privacy policy) and on this page.</p>
+  </section>
+
+  <section id="tv">
+    <h2><span class="n">10.</span>Focused for Android TV</h2>
+    <p>The TV app follows the same rules as the phone app: everything it measures stays <strong>on the TV</strong>, there are no accounts and no servers of ours, and nothing is sold. Where it differs:</p>
+    <p><strong>What it processes and stores on the TV</strong> (in the app’s private storage, which other apps cannot read):</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Information</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Watch time per app, per day and per hour</td><td>Today screen, insights, daily allowance and app limits</td></tr>
+          <tr><td>Your rules: app limits, schedules (such as bedtime), the daily TV allowance, watch breaks, timers, always-allowed apps and settings</td><td>To enforce what you set</td></tr>
+          <tr><td>Time’s-up events (when the block screen appeared, for which app and why, and what happened next)</td><td>Insights and the parent’s history</td></tr>
+          <tr><td>Extra time granted with the parent PIN, until it ends</td><td>To let a granted app run until then</td></tr>
+          <tr><td>The parent PIN, as a salted hash only (never the PIN as typed)</td><td>To check the PIN; the hash cannot be turned back into the PIN</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Watch history older than about 13 months and time’s-up events older than about 4 months are deleted automatically.</p>
+    <p><strong>Usage access (<code>PACKAGE_USAGE_STATS</code>), optional.</strong> If you allow it, the TV app reads from Android how long each app was used, to include watching from before Focused was set up. Many TVs hide this setting; the app then measures watch time itself (below). The data stays on the TV.</p>
+    <p><strong>Accessibility service (“guard”), needed for limits.</strong> Turned on only after an in-app explanation. On the TV it sees <strong>only which app is on the screen</strong> (the package name of the active window), to count watch time and to show the time’s-up, bedtime or PIN screen. It does <strong>not</strong> read any text, titles, subtitles, search words, voice input or anything you type, does not look at web addresses or short videos, and does not record the screen. Its only actions are going to the TV <strong>Home</strong> screen and, if you choose “sleep the TV” when a timer ends, asking Android to lock or sleep the screen. Nothing it sees leaves the TV. You can turn it off in the TV’s Settings → Accessibility.</p>
+    <p><strong>Start at boot (<code>RECEIVE_BOOT_COMPLETED</code>).</strong> Used only to restore your rules after the TV restarts or the app updates.</p>
+    <p><strong>Not in the TV app:</strong> no ads or AdMob SDK, no purchases or Google Play Billing, no in-app review or update prompts, no notifications, no backups or CSV exports, no share cards, no website rules or content filter, no location.</p>
+    <p><strong>Network and third parties.</strong> Release versions use the same <strong>Firebase Crashlytics</strong> and <strong>Firebase Analytics</strong> described in section 4, with the same data (including the advertising ID for Analytics, declared with the <code>AD_ID</code> permission) and the same retention. They never receive your watch time, app names, rules or PIN.</p>
+    <p><strong>Android device backup.</strong> As on the phone, if Android’s own backup is on, the TV may include the app’s data in your encrypted Google account backup. This is managed by Android and Google, not by us.</p>
+    <p><strong>Children and family mode.</strong> In family mode a parent sets Focused up on the TV. A child’s watch time is shown only on that TV and is never sent to us or anyone else. Section 6 applies to the TV app too.</p>
+    <p><strong>Deleting your data on the TV.</strong> Clear the app’s data (TV Settings → Apps → Focused → Clear data) or uninstall the app. Everything it stored is removed; nothing is kept on a server.</p>
   </section>
 
   <section id="contact">
-    <h2><span class="n">10.</span>Contact</h2>
+    <h2><span class="n">11.</span>Contact</h2>
     <p>Questions or requests about privacy? Write to
       <a href="mailto:tecdroiddeveloper@gmail.com">tecdroiddeveloper@gmail.com</a>.</p>
   </section>

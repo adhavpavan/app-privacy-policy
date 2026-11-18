@@ -1,10 +1,12 @@
 # Privacy Policy — Focused: Screen Time Control
 
-**Effective date:** 25 October 2026
-**App:** Focused: Screen Time Control (`com.techdev.focused`) for Android
+**Effective date:** 18 November 2026
+**App:** Focused: Screen Time Control (`com.techdev.focused`) for Android phones and tablets, and for Android TV
 **Contact:** [tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com)
 
-This policy explains how Focused: Screen Time Control ("Focused", "the app", "we") handles information.
+This policy explains how Focused: Screen Time Control ("Focused", "the app", "we") handles information. It covers
+the phone app and the Android TV app (same package name). Sections 1 to 9 describe the phone app; section 10
+describes how the TV app differs.
 
 **In short:** your usage data stays on your phone. Your usage statistics, the names of the apps you use, the
 websites you visit, your rules and anything the accessibility service sees are never sent anywhere. There are no
@@ -168,9 +170,41 @@ lock and keep backup files somewhere safe.
 ## 9. Changes to this policy
 
 We may update this policy when the app changes. The current version, with its effective date, is always available in
-the app (Me → Privacy policy) and on this page.
+the app (phone: Me → Privacy policy; TV: Settings → Privacy policy) and on this page.
 
-## 10. Contact
+## 10. Focused for Android TV
+
+The TV app follows the same rules as the phone app: everything it measures stays **on the TV**, there are no accounts and no servers of ours, and nothing is sold. Where it differs:
+
+**What it processes and stores on the TV** (in the app's private storage, which other apps cannot read):
+
+| Information | Why |
+|---|---|
+| Watch time per app, per day and per hour | Today screen, insights, daily allowance and app limits |
+| Your rules: app limits, schedules (such as bedtime), the daily TV allowance, watch breaks, timers, always-allowed apps and settings | To enforce what you set |
+| Time's-up events (when the block screen appeared, for which app and why, and what happened next) | Insights and the parent's history |
+| Extra time granted with the parent PIN, until it ends | To let a granted app run until then |
+| The parent PIN, as a salted hash only (never the PIN as typed) | To check the PIN; the hash cannot be turned back into the PIN |
+
+Watch history older than about 13 months and time's-up events older than about 4 months are deleted automatically.
+
+**Usage access (`PACKAGE_USAGE_STATS`), optional.** If you allow it, the TV app reads from Android how long each app was used, to include watching from before Focused was set up. Many TVs hide this setting; the app then measures watch time itself (below). The data stays on the TV.
+
+**Accessibility service ("guard"), needed for limits.** Turned on only after an in-app explanation. On the TV it sees **only which app is on the screen** (the package name of the active window), to count watch time and to show the time's-up, bedtime or PIN screen. It does **not** read any text, titles, subtitles, search words, voice input or anything you type, does not look at web addresses or short videos, and does not record the screen. Its only actions are going to the TV **Home** screen and, if you choose "sleep the TV" when a timer ends, asking Android to lock or sleep the screen. Nothing it sees leaves the TV. You can turn it off in the TV's Settings → Accessibility.
+
+**Start at boot (`RECEIVE_BOOT_COMPLETED`).** Used only to restore your rules after the TV restarts or the app updates.
+
+**Not in the TV app:** no ads or AdMob SDK, no purchases or Google Play Billing, no in-app review or update prompts, no notifications, no backups or CSV exports, no share cards, no website rules or content filter, no location.
+
+**Network and third parties.** Release versions use the same **Firebase Crashlytics** and **Firebase Analytics** described in section 4, with the same data (including the advertising ID for Analytics, declared with the `AD_ID` permission) and the same retention. They never receive your watch time, app names, rules or PIN.
+
+**Android device backup.** As on the phone, if Android's own backup is on, the TV may include the app's data in your encrypted Google account backup. This is managed by Android and Google, not by us.
+
+**Children and family mode.** In family mode a parent sets Focused up on the TV. A child's watch time is shown only on that TV and is never sent to us or anyone else. Section 6 applies to the TV app too.
+
+**Deleting your data on the TV.** Clear the app's data (TV Settings → Apps → Focused → Clear data) or uninstall the app. Everything it stored is removed; nothing is kept on a server.
+
+## 11. Contact
 
 Questions or requests about privacy? Write to
 [tecdroiddeveloper@gmail.com](mailto:tecdroiddeveloper@gmail.com).
