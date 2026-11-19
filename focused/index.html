@@ -89,7 +89,7 @@
     </div>
     <div>
       <h1>Privacy Policy</h1>
-      <div class="meta">Focused: Screen Time Control for Android and Android TV · Effective date: 18 November 2026</div>
+      <div class="meta">Focused: Screen Time Control for Android and Android TV · Effective date: 19 November 2026</div>
     </div>
   </header>
 
@@ -316,14 +316,19 @@
           <tr><td>Time’s-up events (when the block screen appeared, for which app and why, and what happened next)</td><td>Insights and the parent’s history</td></tr>
           <tr><td>Extra time granted with the parent PIN, until it ends</td><td>To let a granted app run until then</td></tr>
           <tr><td>The parent PIN, as a salted hash only (never the PIN as typed)</td><td>To check the PIN; the hash cannot be turned back into the PIN</td></tr>
+          <tr><td>An optional PIN hint, as the parent typed it (it may not contain the PIN)</td><td>Shown on "Forgot PIN?" to help the parent remember</td></tr>
+          <tr><td>The PIN recovery code, as a salted hash only (the code is shown once and never stored)</td><td>To reset a forgotten PIN</td></tr>
+          <tr><td>The time a requested 48-hour PIN reset will happen, if one was started</td><td>To show the countdown and remove the PIN when it ends</td></tr>
+          <tr><td>Whether Focused Pro is active (yes/no)</td><td>So Pro features keep working without a network connection</td></tr>
         </tbody>
       </table>
     </div>
     <p>Watch history older than about 13 months and time’s-up events older than about 4 months are deleted automatically.</p>
     <p><strong>Usage access (<code>PACKAGE_USAGE_STATS</code>), optional.</strong> If you allow it, the TV app reads from Android how long each app was used, to include watching from before Focused was set up. Many TVs hide this setting; the app then measures watch time itself (below). The data stays on the TV.</p>
     <p><strong>Accessibility service (“guard”), needed for limits.</strong> Turned on only after an in-app explanation. On the TV it sees <strong>only which app is on the screen</strong> (the package name of the active window), to count watch time and to show the time’s-up, bedtime or PIN screen. It does <strong>not</strong> read any text, titles, subtitles, search words, voice input or anything you type, does not look at web addresses or short videos, and does not record the screen. Its only actions are going to the TV <strong>Home</strong> screen and, if you choose “sleep the TV” when a timer ends, asking Android to lock or sleep the screen. Nothing it sees leaves the TV. You can turn it off in the TV’s Settings → Accessibility.</p>
+    <p><strong>Focused Pro subscription (Google Play Billing), optional.</strong> Focused Pro is an auto-renewing subscription (every 3 months or every year, sometimes with a free trial for new subscribers) bought through <strong>Google Play</strong>. Google Play handles the payment and your payment details; we never see them. Google Play tells the app only whether the subscription is active, and the app keeps that yes/no on the TV. Purchases are linked to your Google account by Google, not by us. You can cancel at any time in Google Play → Payments &amp; subscriptions → Subscriptions; Pro then ends when the paid period ends. Google's handling of the purchase is covered by the <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments privacy notice</a>. Release versions' Firebase Analytics may record an automatic in-app purchase event (product and price; never your watch time, apps, rules or PIN), as described in section 4.</p>
     <p><strong>Start at boot (<code>RECEIVE_BOOT_COMPLETED</code>).</strong> Used only to restore your rules after the TV restarts or the app updates.</p>
-    <p><strong>Not in the TV app:</strong> no ads or AdMob SDK, no purchases or Google Play Billing, no in-app review or update prompts, no notifications, no backups or CSV exports, no share cards, no website rules or content filter, no location.</p>
+    <p><strong>Not in the TV app:</strong> no ads or AdMob SDK, no one-time purchases (only the Focused Pro subscription above), no in-app review or update prompts, no notifications, no backups or CSV exports, no share cards, no website rules or content filter, no location.</p>
     <p><strong>Network and third parties.</strong> Release versions use the same <strong>Firebase Crashlytics</strong> and <strong>Firebase Analytics</strong> described in section 4, with the same data (including the advertising ID for Analytics, declared with the <code>AD_ID</code> permission) and the same retention. They never receive your watch time, app names, rules or PIN.</p>
     <p><strong>Android device backup.</strong> As on the phone, if Android’s own backup is on, the TV may include the app’s data in your encrypted Google account backup. This is managed by Android and Google, not by us.</p>
     <p><strong>Children and family mode.</strong> In family mode a parent sets Focused up on the TV. A child’s watch time is shown only on that TV and is never sent to us or anyone else. Section 6 applies to the TV app too.</p>
