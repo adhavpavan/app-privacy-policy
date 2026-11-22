@@ -1,6 +1,6 @@
 # Privacy Policy — Chargewise: Battery Health
 
-Effective date: 25 October 2026 · Package `com.techdev.chargewise` · Contact: tecdroiddeveloper@gmail.com
+Effective date: 22 November 2026 · Package `com.techdev.chargewise` · Contact: tecdroiddeveloper@gmail.com
 
 **In short:** Chargewise reads your phone's battery information on the phone itself and keeps your battery history
 there. There is no account and no server of ours, and your battery data is never uploaded. To fix crashes and
@@ -28,11 +28,11 @@ Chargewise does not read your location, contacts, files, photos, messages or acc
 ## 2. Permissions
 Chargewise needs no permission to show battery information.
 
-- **Notifications** (Android 13 and newer) — only for what you turn on: charge alarms and alerts, the unplug summary, the unusual-drain alert and the live monitor. Asked the first time you turn one on. You can refuse or turn it off in Android settings; the rest of the app keeps working.
-- **Usage access** (optional, special access you grant yourself in Android settings) — for the App drain screen. Before Android's screen opens, the app explains what it reads and asks you to agree. It reads which apps were on screen and when, on your phone, only while a screen that shows it is open (App drain, Insights or Background), to estimate each app's share of the battery drain. It is not stored, uploaded, shared or used for ads. Without it, everything else works; you can turn it off at any time.
+- **Notifications** (Android 13 and newer) — only for what you turn on: charge alarms and alerts, the unplug summary, the unusual-drain alert, the daily battery summary, plan-ahead reminders, the morning-ready summary and the live monitor. On Android 16 and newer the live monitor can appear as a Live Update (a chip in the status bar with the battery level); it shows the same values as the notification and nothing more. Asked the first time you turn one on. You can refuse or turn it off in Android settings; the rest of the app keeps working.
+- **Usage access** (optional, special access you grant yourself in Android settings) — for the App drain screen. Before Android's screen opens, the app explains what it reads and asks you to agree. It reads which apps were on screen and when, on your phone, only while a screen that shows it is open (App drain, Insights, Background, Drain detective or Daily summary), to estimate each app's share of the battery drain. It is not stored, uploaded, shared or used for ads. Without it, everything else works; you can turn it off at any time.
 - **Foreground service** (optional live monitor) — when you turn on the live monitor, the app keeps an ongoing notification with the battery level, charging power, temperature and time left, and Android shows that it runs in the background. It runs only after you turn it on (and again after a reboot if you left it on), and stops when you turn it off or tap Stop.
 - Normal permissions granted at install without a prompt: internet and network state (Firebase and Google Play),
-  run at startup (to restart background battery checks, and the live monitor if you left it on, after a reboot), run a foreground service (the optional live monitor), vibration (alarm vibration), keep the
+  run at startup (to restart background battery checks, and the live monitor if you left it on, after a reboot), run a foreground service (the optional live monitor), show promoted notifications (Android 16 and newer: the live monitor as a Live Update), vibration (alarm vibration), keep the
   processor awake briefly and background work (used by Android's WorkManager to run the background battery checks),
   and advertising ID (Firebase Analytics).
 
