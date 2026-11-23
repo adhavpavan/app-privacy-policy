@@ -1,12 +1,12 @@
-# Privacy Policy — ScanUp for iPhone, iPad and Apple Watch
+# Privacy Policy — ScanIt for iPhone, iPad and Apple Watch
 
-Effective date: 2026-11-16 (updated 2026-11-23: new name ScanUp, optional iCloud sync, Apple Watch, Recently Deleted,
+Effective date: 2026-11-16 (updated 2026-11-23: new name ScanIt, optional iCloud sync, Apple Watch, Recently Deleted,
 tags, widgets, Siri and Spotlight)
 
-**In short:** ScanUp (formerly QR Buddy) collects no data. No account, no servers of ours, no ads, no analytics, no
+**In short:** ScanIt (formerly QR Buddy) collects no data. No account, no servers of ours, no ads, no analytics, no
 tracking. The codes you scan and make stay on your devices, and in your own iCloud only if you turn on iCloud sync.
 
-This policy explains how ScanUp ("the app", "we"), bundle ID `com.techdev.qrbuddy`, handles information.
+This policy explains how ScanIt ("the app", "we"), bundle ID `com.techdev.qrbuddy`, handles information.
 
 ## 1. What the app uses, and where it stays
 
@@ -17,7 +17,7 @@ This policy explains how ScanUp ("the app", "we"), bundle ID `com.techdev.qrbudd
 | History (the text of codes you scan or make, with your notes and tags) | So you can find a code again | On your device. Wi-Fi passwords are removed before saving unless you turn on "Keep Wi-Fi passwords in History". You can switch History off or delete entries; deleted entries wait 30 days in Recently Deleted (so you can undo) and are then removed for good |
 | Your codes (codes you save, their style, tags and an optional logo image you pick) | To show them full screen, on widgets and on your Apple Watch | On your device; copied straight to your paired Apple Watch if you install the Watch app |
 | CSV / text files you import for Bulk create | To make many codes at once | Read once in memory on your device; not kept |
-| Backup files you make or restore (Settings › Data & backup) | To keep a copy of History and Your codes, or bring them back | Made on your device and saved only where you choose (for example Files or iCloud Drive). ScanUp uploads nothing |
+| Backup files you make or restore (Settings › Data & backup) | To keep a copy of History and Your codes, or bring them back | Made on your device and saved only where you choose (for example Files or iCloud Drive). ScanIt uploads nothing |
 | iCloud sync (off by default; Settings › iCloud sync) | To keep History and Your codes the same on your iPhone and iPad | In **your own** iCloud Drive, in the app's private folder under your Apple Account. We cannot see it; Apple stores it under its own privacy policy. Turning sync off keeps everything on the device |
 | Clipboard | Paste reads a copied image or link only when you tap Paste; "Copy automatically" (off by default) copies what you scan | On your device |
 | Settings | To remember your choices | On your device |
@@ -65,9 +65,9 @@ children.
 ## 6. Keeping and deleting data
 
 Everything stays on your devices, in your own device backups and, if you turned on iCloud sync, in your own iCloud
-Drive. Delete entries in History (they wait 30 days in Recently Deleted, or empty it yourself), let ScanUp delete old
+Drive. Delete entries in History (they wait 30 days in Recently Deleted, or empty it yourself), let ScanIt delete old
 scans automatically (Settings › History › Keep for; favourites stay), delete codes in Your codes, or delete the app to
-remove its data from the device. To remove synced copies, turn off iCloud sync and delete ScanUp's data in iOS
+remove its data from the device. To remove synced copies, turn off iCloud sync and delete ScanIt's data in iOS
 Settings › [your name] › iCloud › Manage Storage. Backup files you saved elsewhere are yours to delete.
 
 ## 7. Honest limits
