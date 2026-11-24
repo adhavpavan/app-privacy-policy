@@ -21,6 +21,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | WiFi Analyzer & Who's on WiFi (iOS, iPadOS, macOS) | `com.techdev.wifianalyzer` | https://adhavpavan.github.io/app-privacy-policy/wifi-analyzer-ios/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/wifi-analyzer-ios/support/ |
 | ScanIt: QR & Barcode Reader (iOS, formerly QR Buddy) | `com.techdev.qrbuddy` | https://adhavpavan.github.io/app-privacy-policy/qrbuddy/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/qrbuddy/support/ |
 | Remote-IO: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
+| Chiplens: Device Info & Specs (iOS, iPadOS, macOS) | `com.techdev.chiplens` | https://adhavpavan.github.io/app-privacy-policy/chiplens/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/chiplens/support/ |
 
 ## Hosting
 
@@ -54,6 +55,7 @@ the source of truth is the app repo.
 | Spokenote (iOS) | `new-apps/voice-notes-ai/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `spokenote/privacy-policy.md`, `spokenote/index.html`, `spokenote/support/index.html` |
 | ScanIt (iOS) | `new-apps/qr-barcode-kit/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `qrbuddy/privacy-policy.md`, `qrbuddy/index.html`, `qrbuddy/support/index.html` |
 | Remotio (iOS) | `new-apps/universal-tv-remote/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `remotio/privacy-policy.md`, `remotio/index.html`, `remotio/support/index.html` |
+| Chiplens (iOS) | `new-apps/research/device-info-ios/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `chiplens/privacy-policy.md`, `chiplens/index.html`, `chiplens/support/index.html` |
 
 Focused (`focused-screentime-control` repo):
 1. Change the policy in the app repo (bump the effective date) together with the in-app copy
