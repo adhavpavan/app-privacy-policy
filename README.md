@@ -22,6 +22,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | ScanIt: QR & Barcode Reader (iOS, formerly QR Buddy) | `com.techdev.qrbuddy` | https://adhavpavan.github.io/app-privacy-policy/qrbuddy/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/qrbuddy/support/ |
 | Remote-IO: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
 | Chiplens: Device Info & Specs (iOS, iPadOS, macOS) | `com.techdev.chiplens` | https://adhavpavan.github.io/app-privacy-policy/chiplens/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/chiplens/support/ |
+| Fullscroll: Long Screenshots (iOS, iPadOS) | `com.techdev.fullscroll` | https://adhavpavan.github.io/app-privacy-policy/fullscroll/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/fullscroll/support/ |
 
 ## Hosting
 
@@ -41,6 +42,7 @@ the source of truth is the app repo.
 |---|---|---|
 | Focused | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `focused/privacy-policy.md`, `focused/index.html` |
 | Focused iOS | `focused-ios/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` | `focused-ios/privacy-policy.md`, `focused-ios/index.html`, `focused-ios/support/index.html` |
+| Fullscroll | `screenshot-stitch-ios/docs/policy/privacy-policy.md`, `privacy-policy.html`, `support.html` (copied by `scripts/sync_policy.sh`) | `fullscroll/privacy-policy.md`, `fullscroll/index.html`, `fullscroll/support/index.html` |
 | Corelyze | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `corelyze/privacy-policy.md`, `corelyze/index.html` |
 | Chargewise | `docs/playstore/policy/privacy-policy.md`, `privacy-policy.html` | `chargewise/privacy-policy.md`, `chargewise/index.html` |
 | Measurely | `docs/playstore/policy/privacy-policy.md` (HTML rendered by `scripts/policy_md2html.py`) | `measurely/privacy-policy.md`, `measurely/index.html` |
