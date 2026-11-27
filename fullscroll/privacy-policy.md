@@ -1,11 +1,11 @@
-# Privacy Policy — Fullscroll for iPhone and iPad
+# Privacy Policy — Long Screenshot for iPhone and iPad
 
 Effective date: 2026-11-27
 
-**In short:** Fullscroll collects no data. No account, no servers, no ads, no analytics, no tracking. What you create
+**In short:** Long Screenshot collects no data. No account, no servers, no ads, no analytics, no tracking. What you create
 stays on your device.
 
-This policy explains how Fullscroll ("the app", "we"), bundle ID `com.techdev.fullscroll`, handles information.
+This policy explains how Long Screenshot ("the app", "we"), bundle ID `com.techdev.fullscroll`, handles information.
 
 ## 1. What the app uses, and where it stays
 | Information | Why | Where it stays |

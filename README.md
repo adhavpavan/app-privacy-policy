@@ -22,7 +22,7 @@ Public privacy policies for TechDev Android and iOS apps, served with GitHub Pag
 | ScanIt: QR & Barcode Reader (iOS, formerly QR Buddy) | `com.techdev.qrbuddy` | https://adhavpavan.github.io/app-privacy-policy/qrbuddy/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/qrbuddy/support/ |
 | Remote-IO: TV Remote Control (iOS) | `com.techdev.remotio` | https://adhavpavan.github.io/app-privacy-policy/remotio/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/remotio/support/ |
 | Chiplens: Device Info & Specs (iOS, iPadOS, macOS) | `com.techdev.chiplens` | https://adhavpavan.github.io/app-privacy-policy/chiplens/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/chiplens/support/ |
-| Fullscroll: Long Screenshots (iOS, iPadOS) | `com.techdev.fullscroll` | https://adhavpavan.github.io/app-privacy-policy/fullscroll/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/fullscroll/support/ |
+| Long Screenshot & Stitch (iOS, iPadOS; project Fullscroll) | `com.techdev.fullscroll` | https://adhavpavan.github.io/app-privacy-policy/fullscroll/ (no data collected) · support: https://adhavpavan.github.io/app-privacy-policy/fullscroll/support/ |
 
 ## Hosting
 
